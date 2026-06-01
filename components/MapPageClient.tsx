@@ -3,9 +3,9 @@
 import { motion } from "framer-motion"
 import Link from "next/link"
 import MapDynamic from "./MapDynamic"
-import { focos } from "@/data/focos"
+import type { Foco } from "@/data/focos"
 
-export default function MapPageClient() {
+export default function MapPageClient({ focos }: { focos: Foco[] }) {
   const total = focos.length
   const altos = focos.filter((f) => f.risco === "alto").length
   const medios = focos.filter((f) => f.risco === "medio").length
@@ -22,7 +22,7 @@ export default function MapPageClient() {
     >
       {/* Map area */}
       <div className="flex-1 relative" style={{ minHeight: "55vh" }}>
-        <MapDynamic />
+        <MapDynamic focos={focos} />
 
         {/* Floating button */}
         <motion.div

@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import Link from "next/link"
-import { estados } from "@/data/estados"
+import type { EstadoResumo } from "@/data/estados"
 import { getRiscoColor, getRiscoLabel, getTendenciaIcon, getTendenciaColor } from "@/lib/utils"
 
 type Filtro = "todos" | "alto" | "medio" | "baixo"
@@ -15,13 +15,13 @@ const FILTROS: { label: string; value: Filtro }[] = [
   { label: "Baixo", value: "baixo" },
 ]
 
-const top5 = [...estados].sort((a, b) => b.focos - a.focos).slice(0, 5)
-const maxFocos = top5[0]?.focos ?? 1
-const totalFocos = estados.reduce((s, e) => s + e.focos, 0)
-const estadosAlto = estados.filter((e) => e.risco === "alto").length
-
-export default function DashboardClient() {
+export default function DashboardClient({ estados }: { estados: EstadoResumo[] }) {
   const [filtro, setFiltro] = useState<Filtro>("todos")
+
+  const top5 = [...estados].sort((a, b) => b.focos - a.focos).slice(0, 5)
+  const maxFocos = top5[0]?.focos ?? 1
+  const totalFocos = estados.reduce((s, e) => s + e.focos, 0)
+  const estadosAlto = estados.filter((e) => e.risco === "alto").length
 
   const estadosFiltrados = filtro === "todos"
     ? estados

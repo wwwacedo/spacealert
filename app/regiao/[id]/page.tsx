@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation"
+import { getEstadoById } from "@/lib/api"
 import { estados } from "@/data/estados"
-import { focos } from "@/data/focos"
 import RegiaoClient from "@/components/RegiaoClient"
 
 export function generateStaticParams() {
@@ -13,11 +13,9 @@ export default async function RegiaoPage({
   params: Promise<{ id: string }>
 }) {
   const { id } = await params
-  const estado = estados.find((e) => e.id === id.toUpperCase())
+  const data = await getEstadoById(id)
 
-  if (!estado) notFound()
+  if (!data) notFound()
 
-  const focosEstado = focos.filter((f) => f.estado === estado.id)
-
-  return <RegiaoClient estado={estado} focosEstado={focosEstado} />
+  return <RegiaoClient estado={data.estado} focosEstado={data.focos} />
 }
