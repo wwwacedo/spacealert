@@ -61,3 +61,26 @@ body {
 .leaflet-container {
   background: #0A0A0A !important;
 }
+
+.leaflet-tooltip-custom {
+  background: #111111 !important;
+  border: 1px solid #1A1A1A !important;
+  border-radius: 8px !important;
+  padding: 8px 12px !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.6) !important;
+  color: #F5F5F5 !important;
+}
+
+.leaflet-tooltip-custom::before {
+  border-top-color: #1A1A1A !important;
+}
+
+.leaflet-control-zoom a {
+  background: #111111 !important;
+  color: #F5F5F5 !important;
+  border-color: #1A1A1A !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background: #1A1A1A !important;
+}
