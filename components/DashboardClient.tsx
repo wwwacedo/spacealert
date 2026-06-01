@@ -29,7 +29,7 @@ export default function DashboardClient() {
 
   return (
     <motion.div
-      style={{ width: "100%", maxWidth: "80rem", margin: "0 auto", padding: "2rem 1.5rem" }}
+      style={{ width: "100%", maxWidth: "80rem", margin: "0 auto", padding: "2.5rem 2rem" }}
       initial={{ opacity: 0, y: 16 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, ease: "easeOut" }}
@@ -56,7 +56,7 @@ export default function DashboardClient() {
 
       {/* Top 5 bar chart */}
       <div
-        className="rounded-xl p-6 mb-8"
+        className="rounded-xl p-8 mb-8"
         style={{ background: "var(--bg-surface)", border: "1px solid var(--bg-elevated)" }}
       >
         <h2 className="text-sm font-semibold uppercase tracking-wider mb-5" style={{ color: "var(--text-muted)" }}>
@@ -160,7 +160,7 @@ export default function DashboardClient() {
               >
                 <Link href={`/regiao/${estado.id}`} className="block group">
                   <div
-                    className="rounded-xl p-5 h-full transition-all duration-200 group-hover:translate-y-[-2px]"
+                    className="rounded-xl p-6 h-full transition-all duration-200 group-hover:translate-y-[-2px]"
                     style={{
                       background: "var(--bg-surface)",
                       border: `1px solid ${riscoColor}44`,
@@ -168,7 +168,7 @@ export default function DashboardClient() {
                     }}
                   >
                     {/* Card header */}
-                    <div className="flex items-start justify-between mb-4">
+                    <div className="flex items-start justify-between mb-5">
                       <div>
                         <p className="text-xs font-semibold tracking-wider uppercase mb-0.5" style={{ color: "var(--text-muted)" }}>
                           {estado.id}
@@ -178,7 +178,7 @@ export default function DashboardClient() {
                         </h3>
                       </div>
                       <span
-                        className="px-2.5 py-0.5 rounded-full text-xs font-bold"
+                        className="px-3 py-1 rounded-full text-xs font-bold"
                         style={{
                           background: `${riscoColor}22`,
                           color: riscoColor,
@@ -214,7 +214,7 @@ export default function DashboardClient() {
 
                     {/* Footer info */}
                     <div
-                      className="mt-4 pt-3 flex gap-4"
+                      className="mt-5 pt-4 flex gap-6"
                       style={{ borderTop: "1px solid var(--bg-elevated)" }}
                     >
                       <div>

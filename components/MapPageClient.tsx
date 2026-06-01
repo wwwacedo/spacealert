@@ -59,7 +59,7 @@ export default function MapPageClient() {
       >
         {/* Live header */}
         <div
-          className="px-5 py-4 flex items-center gap-2"
+          className="px-6 py-5 flex items-center gap-2"
           style={{ borderBottom: "1px solid var(--bg-elevated)" }}
         >
           <span
@@ -72,7 +72,7 @@ export default function MapPageClient() {
         </div>
 
         {/* Total counter */}
-        <div className="px-5 py-5" style={{ borderBottom: "1px solid var(--bg-elevated)" }}>
+        <div className="px-6 py-6" style={{ borderBottom: "1px solid var(--bg-elevated)" }}>
           <p className="text-xs uppercase tracking-wider mb-1" style={{ color: "var(--text-muted)" }}>
             Total de focos ativos
           </p>
@@ -85,11 +85,11 @@ export default function MapPageClient() {
         </div>
 
         {/* Risk breakdown */}
-        <div className="px-5 py-4" style={{ borderBottom: "1px solid var(--bg-elevated)" }}>
+        <div className="px-6 py-5" style={{ borderBottom: "1px solid var(--bg-elevated)" }}>
           <p className="text-xs uppercase tracking-wider mb-3" style={{ color: "var(--text-muted)" }}>
             Por nível de risco
           </p>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-3">
             {[
               { label: "Alto risco", count: altos, color: "var(--accent-alert)" },
               { label: "Médio risco", count: medios, color: "var(--accent-fire)" },
@@ -111,16 +111,16 @@ export default function MapPageClient() {
         </div>
 
         {/* Critical states */}
-        <div className="px-5 py-4">
+        <div className="px-6 py-5">
           <p className="text-xs uppercase tracking-wider mb-3" style={{ color: "var(--text-muted)" }}>
             Estados em alerta crítico
           </p>
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2.5">
             {estadosCriticos.map((uf) => (
               <Link
                 key={uf}
                 href={`/regiao/${uf}`}
-                className="px-2.5 py-1 rounded text-xs font-bold transition-all hover:opacity-80"
+                className="px-3 py-1.5 rounded text-xs font-bold transition-all hover:opacity-80"
                 style={{
                   background: "rgba(255,43,43,0.15)",
                   color: "var(--accent-alert)",
@@ -135,7 +135,7 @@ export default function MapPageClient() {
 
         {/* Pulse legend */}
         <div
-          className="px-5 py-4 mt-auto"
+          className="px-6 py-6 mt-auto"
           style={{ borderTop: "1px solid var(--bg-elevated)" }}
         >
           <p className="text-xs" style={{ color: "var(--text-muted)" }}>
