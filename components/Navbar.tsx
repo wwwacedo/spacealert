@@ -13,35 +13,36 @@ export default function Navbar() {
 
   return (
     <nav
+      className="sticky top-0 z-50 w-full"
       style={{
         background: "var(--bg-surface)",
         borderBottom: "1px solid var(--bg-elevated)",
       }}
-      className="sticky top-0 z-50 w-full"
     >
-      <div style={{ width: "100%", maxWidth: "80rem", margin: "0 auto", padding: "0 1.5rem" }}>
-        <div className="flex items-center justify-between h-14">
-          <Link href="/" className="flex items-center gap-2 group">
-            <span style={{ color: "var(--accent-fire)" }} className="text-xl">🔥</span>
-            <span
-              className="text-lg font-bold tracking-tight"
-              style={{ color: "var(--text-primary)" }}
-            >
+      <div style={{ width: "100%", maxWidth: "80rem", margin: "0 auto", padding: "0 2rem" }}>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: "3.5rem" }}>
+          <Link href="/" style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
+            <span style={{ color: "var(--accent-fire)", fontSize: "1.25rem" }}>🔥</span>
+            <span style={{ fontSize: "1.125rem", fontWeight: 700, color: "var(--text-primary)", letterSpacing: "-0.02em" }}>
               Space<span style={{ color: "var(--accent-fire)" }}>Alert</span>
             </span>
           </Link>
 
-          <div className="flex items-center gap-1">
+          <div style={{ display: "flex", alignItems: "center", gap: "0.25rem" }}>
             {links.map((link) => {
               const active = pathname === link.href
               return (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="px-4 py-1.5 rounded-md text-sm font-medium transition-colors"
                   style={{
+                    padding: "0.375rem 1rem",
+                    borderRadius: "0.375rem",
+                    fontSize: "0.875rem",
+                    fontWeight: 500,
                     color: active ? "var(--accent-fire)" : "var(--text-muted)",
                     background: active ? "var(--bg-elevated)" : "transparent",
+                    transition: "color 0.15s",
                   }}
                 >
                   {link.label}
@@ -50,12 +51,12 @@ export default function Navbar() {
             })}
           </div>
 
-          <div className="flex items-center gap-2">
+          <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
             <span
-              className="animate-pulse-live w-2 h-2 rounded-full inline-block"
-              style={{ background: "var(--accent-live)" }}
+              className="animate-pulse-live"
+              style={{ width: "0.5rem", height: "0.5rem", borderRadius: "9999px", background: "var(--accent-live)", display: "inline-block" }}
             />
-            <span className="text-xs font-medium" style={{ color: "var(--text-muted)" }}>
+            <span style={{ fontSize: "0.75rem", fontWeight: 500, color: "var(--text-muted)" }}>
               AO VIVO
             </span>
           </div>

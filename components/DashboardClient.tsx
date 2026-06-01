@@ -35,20 +35,20 @@ export default function DashboardClient() {
       transition={{ duration: 0.4, ease: "easeOut" }}
     >
       {/* Header */}
-      <div className="mb-8">
-        <div className="flex items-center gap-3 mb-1">
+      <div style={{ marginBottom: "2rem" }}>
+        <div style={{ display: "flex", alignItems: "center", gap: "0.625rem", marginBottom: "0.375rem" }}>
           <span
-            className="animate-pulse-live w-2.5 h-2.5 rounded-full inline-block"
-            style={{ background: "var(--accent-live)" }}
+            className="animate-pulse-live"
+            style={{ width: "0.625rem", height: "0.625rem", borderRadius: "9999px", background: "var(--accent-live)", display: "inline-block" }}
           />
-          <span className="text-xs font-semibold tracking-widest uppercase" style={{ color: "var(--accent-fire)" }}>
+          <span style={{ fontSize: "0.7rem", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--accent-fire)" }}>
             Monitoramento ao vivo
           </span>
         </div>
-        <h1 className="text-3xl font-bold" style={{ color: "var(--text-primary)" }}>
+        <h1 style={{ fontSize: "1.875rem", fontWeight: 700, color: "var(--text-primary)" }}>
           Dashboard de Alertas
         </h1>
-        <p className="text-sm mt-1" style={{ color: "var(--text-muted)" }}>
+        <p style={{ fontSize: "0.875rem", marginTop: "0.25rem", color: "var(--text-muted)" }}>
           Atualizado em 01/06/2026 às 12:00 · {totalFocos.toLocaleString("pt-BR")} focos ativos ·{" "}
           <span style={{ color: "var(--accent-alert)" }}>{estadosAlto} estados em alerta crítico</span>
         </p>
@@ -56,44 +56,44 @@ export default function DashboardClient() {
 
       {/* Top 5 bar chart */}
       <div
-        className="rounded-xl p-8 mb-8"
-        style={{ background: "var(--bg-surface)", border: "1px solid var(--bg-elevated)" }}
+        style={{
+          background: "var(--bg-surface)",
+          border: "1px solid var(--bg-elevated)",
+          borderRadius: "0.75rem",
+          padding: "2rem",
+          marginBottom: "2rem",
+        }}
       >
-        <h2 className="text-sm font-semibold uppercase tracking-wider mb-5" style={{ color: "var(--text-muted)" }}>
+        <h2 style={{ fontSize: "0.75rem", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "1.25rem", color: "var(--text-muted)" }}>
           Top 5 estados com mais focos
         </h2>
-        <div className="flex flex-col gap-3">
+        <div style={{ display: "flex", flexDirection: "column", gap: "0.875rem" }}>
           {top5.map((estado, i) => {
             const pct = (estado.focos / maxFocos) * 100
             const color = getRiscoColor(estado.risco)
             return (
               <motion.div
                 key={estado.id}
-                className="flex items-center gap-3"
+                style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}
                 initial={{ opacity: 0, x: -16 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: i * 0.07, duration: 0.35 }}
               >
                 <Link
                   href={`/regiao/${estado.id}`}
-                  className="w-28 shrink-0 text-sm font-medium text-right hover:underline"
-                  style={{ color: "var(--text-primary)" }}
+                  style={{ width: "7rem", flexShrink: 0, fontSize: "0.875rem", fontWeight: 500, textAlign: "right", color: "var(--text-primary)" }}
                 >
                   {estado.nome}
                 </Link>
-                <div
-                  className="flex-1 rounded-full overflow-hidden"
-                  style={{ background: "var(--bg-elevated)", height: 10 }}
-                >
+                <div style={{ flex: 1, borderRadius: "9999px", overflow: "hidden", background: "var(--bg-elevated)", height: "0.625rem" }}>
                   <motion.div
-                    className="h-full rounded-full"
-                    style={{ background: color }}
+                    style={{ height: "100%", borderRadius: "9999px", background: color }}
                     initial={{ width: 0 }}
                     animate={{ width: `${pct}%` }}
                     transition={{ delay: i * 0.07 + 0.2, duration: 0.5, ease: "easeOut" }}
                   />
                 </div>
-                <span className="w-12 text-sm font-bold text-right shrink-0" style={{ color }}>
+                <span style={{ width: "3rem", fontSize: "0.875rem", fontWeight: 700, textAlign: "right", flexShrink: 0, color }}>
                   {estado.focos}
                 </span>
               </motion.div>
@@ -103,7 +103,7 @@ export default function DashboardClient() {
       </div>
 
       {/* Filter tabs */}
-      <div className="flex gap-2 mb-6 flex-wrap">
+      <div style={{ display: "flex", gap: "0.5rem", marginBottom: "1.5rem", flexWrap: "wrap" }}>
         {FILTROS.map(({ label, value }) => {
           const active = filtro === value
           const color = value === "alto"
@@ -117,13 +117,15 @@ export default function DashboardClient() {
             <button
               key={value}
               onClick={() => setFiltro(value)}
-              className="rounded-full text-sm font-medium transition-all"
               style={{
                 padding: "0.5rem 1.25rem",
+                borderRadius: "9999px",
+                fontSize: "0.875rem",
+                fontWeight: 500,
+                cursor: "pointer",
+                transition: "all 0.15s",
                 background: active
-                  ? value === "todos"
-                    ? "var(--bg-elevated)"
-                    : `${getRiscoColor(value as "alto" | "medio" | "baixo")}22`
+                  ? value === "todos" ? "var(--bg-elevated)" : `${getRiscoColor(value as "alto" | "medio" | "baixo")}22`
                   : "var(--bg-surface)",
                 color: active ? color : "var(--text-muted)",
                 border: `1px solid ${active ? color : "var(--bg-elevated)"}`,
@@ -131,7 +133,7 @@ export default function DashboardClient() {
             >
               {label}
               {value !== "todos" && (
-                <span className="ml-1.5 text-xs opacity-70">
+                <span style={{ marginLeft: "0.375rem", fontSize: "0.75rem", opacity: 0.7 }}>
                   {estados.filter((e) => e.risco === value).length}
                 </span>
               )}
@@ -142,7 +144,8 @@ export default function DashboardClient() {
 
       {/* Cards grid */}
       <motion.div
-        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
+        style={{ gap: "1rem" }}
         layout
       >
         <AnimatePresence mode="popLayout">
@@ -159,31 +162,38 @@ export default function DashboardClient() {
                 exit={{ opacity: 0, scale: 0.95, y: -8 }}
                 transition={{ delay: i * 0.04, duration: 0.3 }}
               >
-                <Link href={`/regiao/${estado.id}`} className="block group">
+                <Link href={`/regiao/${estado.id}`} style={{ display: "block" }} className="group">
                   <div
-                    className="rounded-xl p-6 h-full transition-all duration-200 group-hover:translate-y-[-2px]"
+                    className="group-hover:-translate-y-0.5"
                     style={{
+                      padding: "1.5rem",
+                      borderRadius: "0.75rem",
+                      height: "100%",
                       background: "var(--bg-surface)",
                       border: `1px solid ${riscoColor}44`,
-                      boxShadow: `0 0 0 0 ${riscoColor}`,
+                      transition: "transform 0.2s",
                     }}
                   >
                     {/* Card header */}
-                    <div className="flex items-start justify-between mb-5">
+                    <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", marginBottom: "1.25rem" }}>
                       <div>
-                        <p className="text-xs font-semibold tracking-wider uppercase mb-0.5" style={{ color: "var(--text-muted)" }}>
+                        <p style={{ fontSize: "0.7rem", fontWeight: 600, letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: "0.25rem", color: "var(--text-muted)" }}>
                           {estado.id}
                         </p>
-                        <h3 className="text-base font-bold" style={{ color: "var(--text-primary)" }}>
+                        <h3 style={{ fontSize: "1rem", fontWeight: 700, color: "var(--text-primary)" }}>
                           {estado.nome}
                         </h3>
                       </div>
                       <span
-                        className="px-3 py-1 rounded-full text-xs font-bold"
                         style={{
+                          padding: "0.25rem 0.75rem",
+                          borderRadius: "9999px",
+                          fontSize: "0.75rem",
+                          fontWeight: 700,
                           background: `${riscoColor}22`,
                           color: riscoColor,
                           border: `1px solid ${riscoColor}44`,
+                          whiteSpace: "nowrap",
                         }}
                       >
                         {getRiscoLabel(estado.risco)}
@@ -191,42 +201,36 @@ export default function DashboardClient() {
                     </div>
 
                     {/* Focos count */}
-                    <div className="flex items-end justify-between">
+                    <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between" }}>
                       <div>
-                        <p className="text-3xl font-bold" style={{ color: riscoColor }}>
+                        <p style={{ fontSize: "2rem", fontWeight: 700, lineHeight: 1, color: riscoColor }}>
                           {estado.focos.toLocaleString("pt-BR")}
                         </p>
-                        <p className="text-xs" style={{ color: "var(--text-muted)" }}>
+                        <p style={{ fontSize: "0.75rem", marginTop: "0.25rem", color: "var(--text-muted)" }}>
                           focos ativos
                         </p>
                       </div>
-                      <div className="text-right">
-                        <p
-                          className="text-2xl font-bold"
-                          style={{ color: tendColor }}
-                        >
+                      <div style={{ textAlign: "right" }}>
+                        <p style={{ fontSize: "1.5rem", fontWeight: 700, lineHeight: 1, color: tendColor }}>
                           {tendIcon}
                         </p>
-                        <p className="text-xs capitalize" style={{ color: tendColor }}>
+                        <p style={{ fontSize: "0.75rem", marginTop: "0.25rem", textTransform: "capitalize", color: tendColor }}>
                           {estado.tendencia}
                         </p>
                       </div>
                     </div>
 
                     {/* Footer info */}
-                    <div
-                      className="mt-5 pt-4 flex gap-6"
-                      style={{ borderTop: "1px solid var(--bg-elevated)" }}
-                    >
+                    <div style={{ marginTop: "1.25rem", paddingTop: "1rem", display: "flex", gap: "1.5rem", borderTop: "1px solid var(--bg-elevated)" }}>
                       <div>
-                        <p className="text-xs" style={{ color: "var(--text-muted)" }}>Sem chuva</p>
-                        <p className="text-sm font-semibold" style={{ color: "var(--text-primary)" }}>
+                        <p style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>Sem chuva</p>
+                        <p style={{ fontSize: "0.875rem", fontWeight: 600, marginTop: "0.125rem", color: "var(--text-primary)" }}>
                           {estado.diasSemChuva}d
                         </p>
                       </div>
                       <div>
-                        <p className="text-xs" style={{ color: "var(--text-muted)" }}>Temperatura</p>
-                        <p className="text-sm font-semibold" style={{ color: "var(--text-primary)" }}>
+                        <p style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>Temperatura</p>
+                        <p style={{ fontSize: "0.875rem", fontWeight: 600, marginTop: "0.125rem", color: "var(--text-primary)" }}>
                           {estado.temperatura}°C
                         </p>
                       </div>
@@ -240,7 +244,7 @@ export default function DashboardClient() {
       </motion.div>
 
       {estadosFiltrados.length === 0 && (
-        <div className="text-center py-16">
+        <div style={{ textAlign: "center", padding: "4rem 0" }}>
           <p style={{ color: "var(--text-muted)" }}>Nenhum estado com esse nível de risco.</p>
         </div>
       )}

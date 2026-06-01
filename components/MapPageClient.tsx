@@ -26,18 +26,25 @@ export default function MapPageClient() {
 
         {/* Floating button */}
         <motion.div
-          className="absolute bottom-6 right-4 z-[1000]"
+          style={{ position: "absolute", bottom: "1.5rem", right: "1rem", zIndex: 1000 }}
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.5, duration: 0.3 }}
         >
           <Link
             href="/dashboard"
-            className="flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold transition-all hover:scale-105 active:scale-95"
             style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "0.5rem",
+              padding: "0.625rem 1.25rem",
+              borderRadius: "9999px",
+              fontSize: "0.875rem",
+              fontWeight: 600,
               background: "var(--accent-fire)",
               color: "#fff",
               boxShadow: "0 4px 20px rgba(255,107,43,0.4)",
+              transition: "transform 0.15s",
             }}
           >
             Ver Dashboard →
@@ -58,73 +65,70 @@ export default function MapPageClient() {
         transition={{ delay: 0.2, duration: 0.4 }}
       >
         {/* Live header */}
-        <div
-          className="px-6 py-5 flex items-center gap-2"
-          style={{ borderBottom: "1px solid var(--bg-elevated)" }}
-        >
+        <div style={{ padding: "1.25rem 1.5rem", display: "flex", alignItems: "center", gap: "0.5rem", borderBottom: "1px solid var(--bg-elevated)" }}>
           <span
-            className="animate-pulse-live w-2.5 h-2.5 rounded-full inline-block"
-            style={{ background: "var(--accent-live)" }}
+            className="animate-pulse-live"
+            style={{ width: "0.625rem", height: "0.625rem", borderRadius: "9999px", background: "var(--accent-live)", display: "inline-block", flexShrink: 0 }}
           />
-          <span className="text-xs font-semibold tracking-widest uppercase" style={{ color: "var(--accent-fire)" }}>
+          <span style={{ fontSize: "0.7rem", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--accent-fire)" }}>
             Monitoramento ao vivo
           </span>
         </div>
 
         {/* Total counter */}
-        <div className="px-6 py-6" style={{ borderBottom: "1px solid var(--bg-elevated)" }}>
-          <p className="text-xs uppercase tracking-wider mb-1" style={{ color: "var(--text-muted)" }}>
+        <div style={{ padding: "1.5rem", borderBottom: "1px solid var(--bg-elevated)" }}>
+          <p style={{ fontSize: "0.7rem", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "0.375rem", color: "var(--text-muted)" }}>
             Total de focos ativos
           </p>
-          <p className="text-4xl font-bold" style={{ color: "var(--text-primary)" }}>
+          <p style={{ fontSize: "2.5rem", fontWeight: 700, lineHeight: 1, color: "var(--text-primary)" }}>
             {total}
           </p>
-          <p className="text-xs mt-1" style={{ color: "var(--text-muted)" }}>
+          <p style={{ fontSize: "0.75rem", marginTop: "0.375rem", color: "var(--text-muted)" }}>
             Atualizado em 01/06/2026 às 12:00
           </p>
         </div>
 
         {/* Risk breakdown */}
-        <div className="px-6 py-5" style={{ borderBottom: "1px solid var(--bg-elevated)" }}>
-          <p className="text-xs uppercase tracking-wider mb-3" style={{ color: "var(--text-muted)" }}>
+        <div style={{ padding: "1.5rem", borderBottom: "1px solid var(--bg-elevated)" }}>
+          <p style={{ fontSize: "0.7rem", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "0.875rem", color: "var(--text-muted)" }}>
             Por nível de risco
           </p>
-          <div className="flex flex-col gap-3">
+          <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
             {[
               { label: "Alto risco", count: altos, color: "var(--accent-alert)" },
               { label: "Médio risco", count: medios, color: "var(--accent-fire)" },
               { label: "Baixo risco", count: baixos, color: "var(--accent-safe)" },
             ].map(({ label, count, color }) => (
-              <div key={label} className="flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <span className="w-2 h-2 rounded-full" style={{ background: color }} />
-                  <span className="text-sm" style={{ color: "var(--text-muted)" }}>
-                    {label}
-                  </span>
+              <div key={label} style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
+                  <span style={{ width: "0.5rem", height: "0.5rem", borderRadius: "9999px", background: color, display: "inline-block" }} />
+                  <span style={{ fontSize: "0.875rem", color: "var(--text-muted)" }}>{label}</span>
                 </div>
-                <span className="text-sm font-bold" style={{ color }}>
-                  {count}
-                </span>
+                <span style={{ fontSize: "0.875rem", fontWeight: 700, color }}>{count}</span>
               </div>
             ))}
           </div>
         </div>
 
         {/* Critical states */}
-        <div className="px-6 py-5">
-          <p className="text-xs uppercase tracking-wider mb-3" style={{ color: "var(--text-muted)" }}>
+        <div style={{ padding: "1.5rem" }}>
+          <p style={{ fontSize: "0.7rem", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "0.875rem", color: "var(--text-muted)" }}>
             Estados em alerta crítico
           </p>
-          <div className="flex flex-wrap gap-2.5">
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
             {estadosCriticos.map((uf) => (
               <Link
                 key={uf}
                 href={`/regiao/${uf}`}
-                className="px-3 py-1.5 rounded text-xs font-bold transition-all hover:opacity-80"
                 style={{
+                  padding: "0.375rem 0.75rem",
+                  borderRadius: "0.25rem",
+                  fontSize: "0.75rem",
+                  fontWeight: 700,
                   background: "rgba(255,43,43,0.15)",
                   color: "var(--accent-alert)",
                   border: "1px solid rgba(255,43,43,0.3)",
+                  transition: "opacity 0.15s",
                 }}
               >
                 {uf}
@@ -133,15 +137,12 @@ export default function MapPageClient() {
           </div>
         </div>
 
-        {/* Pulse legend */}
-        <div
-          className="px-6 py-6 mt-auto"
-          style={{ borderTop: "1px solid var(--bg-elevated)" }}
-        >
-          <p className="text-xs" style={{ color: "var(--text-muted)" }}>
+        {/* Legend */}
+        <div style={{ padding: "1.5rem", marginTop: "auto", borderTop: "1px solid var(--bg-elevated)" }}>
+          <p style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>
             Clique em qualquer foco no mapa para ver detalhes do município.
           </p>
-          <p className="text-xs mt-1" style={{ color: "var(--text-muted)" }}>
+          <p style={{ fontSize: "0.75rem", marginTop: "0.25rem", color: "var(--text-muted)" }}>
             Fonte: satélites NASA FIRMS / AQUA e TERRA.
           </p>
         </div>
