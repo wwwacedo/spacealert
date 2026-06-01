@@ -33,6 +33,7 @@ export default function MapPageClient({ focos }: { focos: Foco[] }) {
         >
           <Link
             href="/dashboard"
+            aria-label="Ir para o Dashboard de Alertas"
             style={{
               display: "inline-flex",
               alignItems: "center",

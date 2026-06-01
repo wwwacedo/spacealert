@@ -50,6 +50,7 @@ export default function RegiaoClient({ estado, focosEstado }: Props) {
       {/* Back button */}
       <Link
         href="/dashboard"
+        aria-label="Voltar ao Dashboard de Alertas"
         style={{
           display: "inline-flex",
           alignItems: "center",
