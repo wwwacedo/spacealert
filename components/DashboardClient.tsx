@@ -117,8 +117,9 @@ export default function DashboardClient() {
             <button
               key={value}
               onClick={() => setFiltro(value)}
-              className="px-5 py-2 rounded-full text-sm font-medium transition-all"
+              className="rounded-full text-sm font-medium transition-all"
               style={{
+                padding: "0.5rem 1.25rem",
                 background: active
                   ? value === "todos"
                     ? "var(--bg-elevated)"
