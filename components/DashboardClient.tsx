@@ -117,7 +117,7 @@ export default function DashboardClient() {
             <button
               key={value}
               onClick={() => setFiltro(value)}
-              className="px-4 py-1.5 rounded-full text-sm font-medium transition-all"
+              className="px-5 py-2 rounded-full text-sm font-medium transition-all"
               style={{
                 background: active
                   ? value === "todos"
