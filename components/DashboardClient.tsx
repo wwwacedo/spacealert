@@ -29,7 +29,7 @@ export default function DashboardClient() {
 
   return (
     <motion.div
-      className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8"
+      style={{ width: "100%", maxWidth: "80rem", margin: "0 auto", padding: "2rem 1.5rem" }}
       initial={{ opacity: 0, y: 16 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, ease: "easeOut" }}

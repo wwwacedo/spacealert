@@ -17,9 +17,9 @@ export default function Navbar() {
         background: "var(--bg-surface)",
         borderBottom: "1px solid var(--bg-elevated)",
       }}
-      className="sticky top-0 z-50"
+      className="sticky top-0 z-50 w-full"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div style={{ width: "100%", maxWidth: "80rem", margin: "0 auto", padding: "0 1.5rem" }}>
         <div className="flex items-center justify-between h-14">
           <Link href="/" className="flex items-center gap-2 group">
             <span style={{ color: "var(--accent-fire)" }} className="text-xl">🔥</span>

@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="pt-BR" className={`${inter.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col" style={{ background: "var(--bg-primary)", color: "var(--text-primary)" }}>
         <Navbar />
-        <main className="flex-1">{children}</main>
+        <main style={{ width: "100%" }}>{children}</main>
       </body>
     </html>
   )
