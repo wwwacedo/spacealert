@@ -16,6 +16,51 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## INPE Pipeline
+
+Install the Python dependencies and run the tests:
+
+```bash
+python -m pip install -r requirements.txt
+python -m pytest
+```
+
+Generate the app data from INPE CSVs:
+
+```bash
+python -m scripts.inpe_pipeline ingest --daily 20260601 --monthly 202605
+```
+
+The command writes `data/generated/focos.json`, `estados.json`, `historico.json`, and `alertas.json`. The Next.js app uses only those generated INPE files, so run the pipeline before starting the app.
+
+## Run Everything
+
+On Git Bash, WSL, Linux, or macOS:
+
+```bash
+./run.sh
+```
+
+On Windows PowerShell:
+
+```powershell
+.\run.ps1
+```
+
+Useful options:
+
+```bash
+./run.sh --ingest
+./run.sh --verify
+```
+
+```powershell
+.\run.ps1 -Ingest
+.\run.ps1 -Verify
+```
+
+See `EVIDENCIAS.md` for the implementation evidence by project phase.
+
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.

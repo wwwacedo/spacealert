@@ -31,9 +31,9 @@ const CENTROS: Record<string, [number, number]> = {
   CE: [-5.5, -39.5], GO: [-15.8, -49.5], MG: [-18.5, -44.5], SE: [-10.6, -37.4],
 }
 
-type Props = { estado: EstadoResumo; focosEstado: Foco[] }
+type Props = { estado: EstadoResumo; focosEstado: Foco[]; alerta?: string }
 
-export default function RegiaoClient({ estado, focosEstado }: Props) {
+export default function RegiaoClient({ estado, focosEstado, alerta }: Props) {
   const riscoColor = getRiscoColor(estado.risco)
   const tendColor = getTendenciaColor(estado.tendencia)
   const recomendacoes = RECOMENDACOES[estado.risco]
@@ -151,6 +151,22 @@ export default function RegiaoClient({ estado, focosEstado }: Props) {
 
           {/* Left col: mini-map + municipalities */}
           <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
+
+            {alerta && (
+              <div style={{
+                background: "var(--bg-surface)",
+                border: `1px solid ${riscoColor}44`,
+                borderRadius: "0.75rem",
+                padding: "1.75rem",
+              }}>
+                <h2 style={{ fontSize: "0.75rem", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.08em", color: "var(--text-muted)", marginBottom: "0.875rem" }}>
+                  Resumo automático
+                </h2>
+                <p style={{ fontSize: "0.95rem", lineHeight: 1.6, color: "var(--text-primary)" }}>
+                  {alerta}
+                </p>
+              </div>
+            )}
 
             {/* Mini-map */}
             <div style={{

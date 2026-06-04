@@ -1,0 +1,112 @@
+{
+  "evolucaoMensal": [
+    {
+      "mes": "2026-05",
+      "focos": 82019
+    }
+  ],
+  "rankingEstados": [
+    {
+      "id": "TO",
+      "nome": "Tocantins",
+      "focos": 21426
+    },
+    {
+      "id": "MT",
+      "nome": "Mato Grosso",
+      "focos": 19261
+    },
+    {
+      "id": "BA",
+      "nome": "Bahia",
+      "focos": 10920
+    },
+    {
+      "id": "MA",
+      "nome": "Maranhão",
+      "focos": 6609
+    },
+    {
+      "id": "GO",
+      "nome": "Goiás",
+      "focos": 3931
+    },
+    {
+      "id": "PA",
+      "nome": "Pará",
+      "focos": 3884
+    },
+    {
+      "id": "MG",
+      "nome": "Minas Gerais",
+      "focos": 3633
+    },
+    {
+      "id": "PI",
+      "nome": "Piauí",
+      "focos": 3471
+    },
+    {
+      "id": "SP",
+      "nome": "São Paulo",
+      "focos": 1723
+    },
+    {
+      "id": "MS",
+      "nome": "Mato Grosso do Sul",
+      "focos": 1580
+    }
+  ],
+  "rankingRegioesCriticas": [
+    {
+      "estado": "TO",
+      "municipio": "Mateiros",
+      "focos": 3527
+    },
+    {
+      "estado": "TO",
+      "municipio": "Lagoa Da Confusão",
+      "focos": 2356
+    },
+    {
+      "estado": "BA",
+      "municipio": "Formosa Do Rio Preto",
+      "focos": 1461
+    },
+    {
+      "estado": "MT",
+      "municipio": "São Félix Do Araguaia",
+      "focos": 1439
+    },
+    {
+      "estado": "TO",
+      "municipio": "Ponte Alta Do Tocantins",
+      "focos": 1419
+    },
+    {
+      "estado": "MT",
+      "municipio": "Tangará Da Serra",
+      "focos": 1343
+    },
+    {
+      "estado": "BA",
+      "municipio": "Jaborandi",
+      "focos": 1296
+    },
+    {
+      "estado": "TO",
+      "municipio": "Sandolândia",
+      "focos": 1189
+    },
+    {
+      "estado": "MT",
+      "municipio": "Cláudia",
+      "focos": 1181
+    },
+    {
+      "estado": "MT",
+      "municipio": "Nova Maringá",
+      "focos": 1168
+    }
+  ]
+}

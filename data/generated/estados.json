@@ -1,0 +1,502 @@
+[
+  {
+    "id": "TO",
+    "nome": "Tocantins",
+    "focos": 120,
+    "risco": "alto",
+    "tendencia": "subindo",
+    "diasSemChuva": 0,
+    "areaAfetada": 50400,
+    "temperatura": 37,
+    "municipiosAfetados": [
+      {
+        "nome": "Ponte Alta Do Tocantins",
+        "focos": 24
+      },
+      {
+        "nome": "Mateiros",
+        "focos": 17
+      },
+      {
+        "nome": "Paranã",
+        "focos": 15
+      },
+      {
+        "nome": "Santa Rita Do Tocantins",
+        "focos": 11
+      },
+      {
+        "nome": "Guaraí",
+        "focos": 11
+      }
+    ]
+  },
+  {
+    "id": "MT",
+    "nome": "Mato Grosso",
+    "focos": 101,
+    "risco": "alto",
+    "tendencia": "subindo",
+    "diasSemChuva": 0,
+    "areaAfetada": 42420,
+    "temperatura": 37,
+    "municipiosAfetados": [
+      {
+        "nome": "São Félix Do Araguaia",
+        "focos": 26
+      },
+      {
+        "nome": "Nova Maringá",
+        "focos": 24
+      },
+      {
+        "nome": "Paranatinga",
+        "focos": 9
+      },
+      {
+        "nome": "União Do Sul",
+        "focos": 8
+      },
+      {
+        "nome": "Vila Rica",
+        "focos": 7
+      }
+    ]
+  },
+  {
+    "id": "MA",
+    "nome": "Maranhão",
+    "focos": 47,
+    "risco": "medio",
+    "tendencia": "estavel",
+    "diasSemChuva": 0,
+    "areaAfetada": 19740,
+    "temperatura": 32,
+    "municipiosAfetados": [
+      {
+        "nome": "Carolina",
+        "focos": 14
+      },
+      {
+        "nome": "João Lisboa",
+        "focos": 8
+      },
+      {
+        "nome": "Nova Iorque",
+        "focos": 5
+      },
+      {
+        "nome": "Balsas",
+        "focos": 4
+      },
+      {
+        "nome": "Riachão",
+        "focos": 4
+      }
+    ]
+  },
+  {
+    "id": "PI",
+    "nome": "Piauí",
+    "focos": 36,
+    "risco": "medio",
+    "tendencia": "estavel",
+    "diasSemChuva": 0,
+    "areaAfetada": 15120,
+    "temperatura": 32,
+    "municipiosAfetados": [
+      {
+        "nome": "Floriano",
+        "focos": 20
+      },
+      {
+        "nome": "Porto Alegre Do Piauí",
+        "focos": 5
+      },
+      {
+        "nome": "Betânia Do Piauí",
+        "focos": 2
+      },
+      {
+        "nome": "Guadalupe",
+        "focos": 2
+      },
+      {
+        "nome": "Demerval Lobão",
+        "focos": 2
+      }
+    ]
+  },
+  {
+    "id": "PA",
+    "nome": "Pará",
+    "focos": 34,
+    "risco": "medio",
+    "tendencia": "estavel",
+    "diasSemChuva": 0,
+    "areaAfetada": 14280,
+    "temperatura": 32,
+    "municipiosAfetados": [
+      {
+        "nome": "Altamira",
+        "focos": 15
+      },
+      {
+        "nome": "Conceição Do Araguaia",
+        "focos": 8
+      },
+      {
+        "nome": "Santana Do Araguaia",
+        "focos": 7
+      },
+      {
+        "nome": "Floresta Do Araguaia",
+        "focos": 2
+      },
+      {
+        "nome": "Rondon Do Pará",
+        "focos": 1
+      }
+    ]
+  },
+  {
+    "id": "MG",
+    "nome": "Minas Gerais",
+    "focos": 30,
+    "risco": "medio",
+    "tendencia": "estavel",
+    "diasSemChuva": 0,
+    "areaAfetada": 12600,
+    "temperatura": 32,
+    "municipiosAfetados": [
+      {
+        "nome": "Santa Cruz De Salinas",
+        "focos": 3
+      },
+      {
+        "nome": "Curral De Dentro",
+        "focos": 2
+      },
+      {
+        "nome": "Iguatama",
+        "focos": 2
+      },
+      {
+        "nome": "Desterro De Entre Rios",
+        "focos": 2
+      },
+      {
+        "nome": "Santa Fé De Minas",
+        "focos": 2
+      }
+    ]
+  },
+  {
+    "id": "ES",
+    "nome": "Espírito Santo",
+    "focos": 19,
+    "risco": "baixo",
+    "tendencia": "caindo",
+    "diasSemChuva": 0,
+    "areaAfetada": 7980,
+    "temperatura": 28,
+    "municipiosAfetados": [
+      {
+        "nome": "Sooretama",
+        "focos": 5
+      },
+      {
+        "nome": "Linhares",
+        "focos": 3
+      },
+      {
+        "nome": "Serra",
+        "focos": 2
+      },
+      {
+        "nome": "Montanha",
+        "focos": 2
+      },
+      {
+        "nome": "Santa Maria De Jetibá",
+        "focos": 2
+      }
+    ]
+  },
+  {
+    "id": "GO",
+    "nome": "Goiás",
+    "focos": 19,
+    "risco": "medio",
+    "tendencia": "estavel",
+    "diasSemChuva": 0,
+    "areaAfetada": 7980,
+    "temperatura": 32,
+    "municipiosAfetados": [
+      {
+        "nome": "Colinas Do Sul",
+        "focos": 4
+      },
+      {
+        "nome": "Bonópolis",
+        "focos": 3
+      },
+      {
+        "nome": "Itapaci",
+        "focos": 3
+      },
+      {
+        "nome": "Quirinópolis",
+        "focos": 3
+      },
+      {
+        "nome": "Posse",
+        "focos": 3
+      }
+    ]
+  },
+  {
+    "id": "SP",
+    "nome": "São Paulo",
+    "focos": 19,
+    "risco": "baixo",
+    "tendencia": "caindo",
+    "diasSemChuva": 0,
+    "areaAfetada": 7980,
+    "temperatura": 28,
+    "municipiosAfetados": [
+      {
+        "nome": "Jales",
+        "focos": 6
+      },
+      {
+        "nome": "Artur Nogueira",
+        "focos": 2
+      },
+      {
+        "nome": "Paulo De Faria",
+        "focos": 2
+      },
+      {
+        "nome": "Ribeirão Bonito",
+        "focos": 2
+      },
+      {
+        "nome": "Mococa",
+        "focos": 2
+      }
+    ]
+  },
+  {
+    "id": "BA",
+    "nome": "Bahia",
+    "focos": 18,
+    "risco": "baixo",
+    "tendencia": "caindo",
+    "diasSemChuva": 0,
+    "areaAfetada": 7560,
+    "temperatura": 28,
+    "municipiosAfetados": [
+      {
+        "nome": "Casa Nova",
+        "focos": 5
+      },
+      {
+        "nome": "Alcobaça",
+        "focos": 2
+      },
+      {
+        "nome": "Jaborandi",
+        "focos": 2
+      },
+      {
+        "nome": "Juazeiro",
+        "focos": 2
+      },
+      {
+        "nome": "Cordeiros",
+        "focos": 1
+      }
+    ]
+  },
+  {
+    "id": "RN",
+    "nome": "Rio Grande do Norte",
+    "focos": 10,
+    "risco": "baixo",
+    "tendencia": "caindo",
+    "diasSemChuva": 0,
+    "areaAfetada": 4200,
+    "temperatura": 28,
+    "municipiosAfetados": [
+      {
+        "nome": "Governador Dix-sept Rosado",
+        "focos": 6
+      },
+      {
+        "nome": "Caraúbas",
+        "focos": 3
+      },
+      {
+        "nome": "Felipe Guerra",
+        "focos": 1
+      }
+    ]
+  },
+  {
+    "id": "CE",
+    "nome": "Ceará",
+    "focos": 5,
+    "risco": "baixo",
+    "tendencia": "caindo",
+    "diasSemChuva": 0,
+    "areaAfetada": 2100,
+    "temperatura": 28,
+    "municipiosAfetados": [
+      {
+        "nome": "Tarrafas",
+        "focos": 2
+      },
+      {
+        "nome": "Barbalha",
+        "focos": 1
+      },
+      {
+        "nome": "Milagres",
+        "focos": 1
+      },
+      {
+        "nome": "Novo Oriente",
+        "focos": 1
+      }
+    ]
+  },
+  {
+    "id": "PE",
+    "nome": "Pernambuco",
+    "focos": 5,
+    "risco": "baixo",
+    "tendencia": "caindo",
+    "diasSemChuva": 0,
+    "areaAfetada": 2100,
+    "temperatura": 28,
+    "municipiosAfetados": [
+      {
+        "nome": "Paulista",
+        "focos": 2
+      },
+      {
+        "nome": "Araripina",
+        "focos": 1
+      },
+      {
+        "nome": "Flores",
+        "focos": 1
+      },
+      {
+        "nome": "Palmeirina",
+        "focos": 1
+      }
+    ]
+  },
+  {
+    "id": "AL",
+    "nome": "Alagoas",
+    "focos": 4,
+    "risco": "baixo",
+    "tendencia": "caindo",
+    "diasSemChuva": 0,
+    "areaAfetada": 1680,
+    "temperatura": 28,
+    "municipiosAfetados": [
+      {
+        "nome": "Girau Do Ponciano",
+        "focos": 2
+      },
+      {
+        "nome": "Batalha",
+        "focos": 1
+      },
+      {
+        "nome": "Olho D'água Das Flores",
+        "focos": 1
+      }
+    ]
+  },
+  {
+    "id": "AM",
+    "nome": "Amazonas",
+    "focos": 3,
+    "risco": "baixo",
+    "tendencia": "caindo",
+    "diasSemChuva": 0,
+    "areaAfetada": 1260,
+    "temperatura": 28,
+    "municipiosAfetados": [
+      {
+        "nome": "Canutama",
+        "focos": 3
+      }
+    ]
+  },
+  {
+    "id": "RJ",
+    "nome": "Rio de Janeiro",
+    "focos": 3,
+    "risco": "baixo",
+    "tendencia": "caindo",
+    "diasSemChuva": 0,
+    "areaAfetada": 1260,
+    "temperatura": 28,
+    "municipiosAfetados": [
+      {
+        "nome": "Belford Roxo",
+        "focos": 1
+      },
+      {
+        "nome": "Campos Dos Goytacazes",
+        "focos": 1
+      },
+      {
+        "nome": "São Pedro Da Aldeia",
+        "focos": 1
+      }
+    ]
+  },
+  {
+    "id": "PB",
+    "nome": "Paraíba",
+    "focos": 2,
+    "risco": "baixo",
+    "tendencia": "caindo",
+    "diasSemChuva": 0,
+    "areaAfetada": 840,
+    "temperatura": 28,
+    "municipiosAfetados": [
+      {
+        "nome": "Pocinhos",
+        "focos": 1
+      },
+      {
+        "nome": "Tacima",
+        "focos": 1
+      }
+    ]
+  },
+  {
+    "id": "SE",
+    "nome": "Sergipe",
+    "focos": 1,
+    "risco": "baixo",
+    "tendencia": "caindo",
+    "diasSemChuva": 0,
+    "areaAfetada": 420,
+    "temperatura": 28,
+    "municipiosAfetados": [
+      {
+        "nome": "Porto Da Folha",
+        "focos": 1
+      }
+    ]
+  }
+]

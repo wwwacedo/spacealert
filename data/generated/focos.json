@@ -1,0 +1,4762 @@
+[
+  {
+    "id": "873477fd-5b56-3537-a5df-c3f8baa70449",
+    "lat": -15.5945,
+    "lng": -49.8292,
+    "municipio": "Itapuranga",
+    "estado": "GO",
+    "risco": "alto",
+    "dataHora": "2026-06-01T00:00:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "59ed7aaf-198e-30f2-9b9f-187e0bac82ff",
+    "lat": -11.6286,
+    "lng": -52.5702,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "medio",
+    "dataHora": "2026-06-01T00:00:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "da13d981-afd1-35b6-92b7-c4da10a8c4cc",
+    "lat": -18.5489,
+    "lng": -50.8901,
+    "municipio": "Quirinópolis",
+    "estado": "GO",
+    "risco": "alto",
+    "dataHora": "2026-06-01T00:10:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "b85f00bf-4adf-3a3c-a0a5-4af18628a69e",
+    "lat": -11.6286,
+    "lng": -52.5702,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "medio",
+    "dataHora": "2026-06-01T00:10:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "13504275-376b-3994-82a7-044c2fa54360",
+    "lat": -11.6289,
+    "lng": -52.5493,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "medio",
+    "dataHora": "2026-06-01T00:10:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "24fc0088-43e8-3dd1-97a0-2d9049dcd804",
+    "lat": -18.5499,
+    "lng": -50.8458,
+    "municipio": "Quirinópolis",
+    "estado": "GO",
+    "risco": "alto",
+    "dataHora": "2026-06-01T00:10:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "8a7aaac8-86c5-3131-a1e0-7430c3964700",
+    "lat": -18.5494,
+    "lng": -50.8679,
+    "municipio": "Quirinópolis",
+    "estado": "GO",
+    "risco": "alto",
+    "dataHora": "2026-06-01T00:10:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "9f0009d8-ac95-3d5c-b515-930e311b9806",
+    "lat": -5.099,
+    "lng": -46.949001,
+    "municipio": "João Lisboa",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T00:15:00Z",
+    "satelite": "METOP-C"
+  },
+  {
+    "id": "a4ef83c4-a205-380b-87a7-b8ffd2197536",
+    "lat": -5.0971,
+    "lng": -46.940498,
+    "municipio": "João Lisboa",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T00:15:00Z",
+    "satelite": "METOP-C"
+  },
+  {
+    "id": "fb09211d-e73a-30ec-ab72-2344ac3f1c99",
+    "lat": -8.7262,
+    "lng": -48.311699,
+    "municipio": "Guaraí",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T00:15:00Z",
+    "satelite": "METOP-C"
+  },
+  {
+    "id": "cd76e974-a061-3390-990f-ab2495a80919",
+    "lat": -8.7286,
+    "lng": -48.3232,
+    "municipio": "Guaraí",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T00:15:00Z",
+    "satelite": "METOP-C"
+  },
+  {
+    "id": "0624089c-4b84-3190-a6c3-ce8faa940034",
+    "lat": -6.9927,
+    "lng": -42.880901,
+    "municipio": "Floriano",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T00:15:00Z",
+    "satelite": "METOP-C"
+  },
+  {
+    "id": "f0832c25-1126-315b-87f7-5411f7f323e3",
+    "lat": -6.9912,
+    "lng": -42.874001,
+    "municipio": "Floriano",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T00:15:00Z",
+    "satelite": "METOP-C"
+  },
+  {
+    "id": "604fb814-1583-35e9-ae35-d936a133432b",
+    "lat": -8.7311,
+    "lng": -48.334702,
+    "municipio": "Guaraí",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T00:15:00Z",
+    "satelite": "METOP-C"
+  },
+  {
+    "id": "5d22a69d-2b55-30fb-88d6-fee67f2dca60",
+    "lat": -6.9943,
+    "lng": -42.887699,
+    "municipio": "Floriano",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T00:15:00Z",
+    "satelite": "METOP-C"
+  },
+  {
+    "id": "7447f602-09c4-3984-8363-35045ea1f3ea",
+    "lat": -8.7384,
+    "lng": -48.321098,
+    "municipio": "Guaraí",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T00:15:00Z",
+    "satelite": "METOP-C"
+  },
+  {
+    "id": "820c9e4b-84ed-3a5a-a4b2-8e6dee415436",
+    "lat": -11.62067,
+    "lng": -52.55984,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "medio",
+    "dataHora": "2026-06-01T01:07:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "fb5230f3-7c66-3098-a199-579aa3610c61",
+    "lat": -6.99122,
+    "lng": -42.88478,
+    "municipio": "Floriano",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T03:23:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "dc4043f9-0218-34b5-bb80-e1a96c66b95b",
+    "lat": -8.14215,
+    "lng": -40.80072,
+    "municipio": "Betânia Do Piauí",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T03:23:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "8d3ff2d0-90b5-3039-b498-b669f6e99124",
+    "lat": -9.4903,
+    "lng": -40.31419,
+    "municipio": "Juazeiro",
+    "estado": "BA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T03:23:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "5c3042b2-6f31-389e-9877-7b1d4df4d8ac",
+    "lat": -5.52374,
+    "lng": -37.48839,
+    "municipio": "Governador Dix-sept Rosado",
+    "estado": "RN",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T03:23:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "e231dba5-24c5-34f8-b01f-da5bb2449f6c",
+    "lat": -6.99019,
+    "lng": -42.8903,
+    "municipio": "Floriano",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T03:23:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "867b2f9e-a7ac-30ac-bbdb-7eb1ae93955e",
+    "lat": -6.99224,
+    "lng": -42.87932,
+    "municipio": "Floriano",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T03:23:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "9d1b7b51-eed2-3a44-a736-4611487978e6",
+    "lat": -5.52267,
+    "lng": -37.48464,
+    "municipio": "Governador Dix-sept Rosado",
+    "estado": "RN",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T03:23:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "1e907ed4-e52f-3b7b-ba94-9caa0c125af0",
+    "lat": -5.51903,
+    "lng": -37.4876,
+    "municipio": "Governador Dix-sept Rosado",
+    "estado": "RN",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T03:23:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "e6891028-ef93-34d1-944a-f72aff8cd3c2",
+    "lat": -15.82953,
+    "lng": -41.42096,
+    "municipio": "Águas Vermelhas",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T03:25:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "09ca8d23-6463-3974-977f-69aee616ac6f",
+    "lat": -17.62664,
+    "lng": -42.01965,
+    "municipio": "Setubinha",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T03:25:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "65da7cb0-3d6d-3f02-9efb-236bd940e8d1",
+    "lat": -19.18688,
+    "lng": -40.13678,
+    "municipio": "Sooretama",
+    "estado": "ES",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T03:28:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "df5ce554-51fb-3ef0-8fa1-85b903d25dd1",
+    "lat": -21.39157,
+    "lng": -47.01924,
+    "municipio": "Mococa",
+    "estado": "SP",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T03:28:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "8c226fb4-7783-39ae-b26d-2ddfe012704c",
+    "lat": -19.18631,
+    "lng": -40.1348,
+    "municipio": "Sooretama",
+    "estado": "ES",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T03:28:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "365ac664-49c1-3520-834c-e68564cd9515",
+    "lat": -19.18721,
+    "lng": -40.13025,
+    "municipio": "Sooretama",
+    "estado": "ES",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T03:28:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "1f5b8952-c17b-3f60-a4f3-a3054d848789",
+    "lat": -22.68586,
+    "lng": -42.13852,
+    "municipio": "São Pedro Da Aldeia",
+    "estado": "RJ",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T03:28:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "c5a2aab1-26f5-3c58-89f8-d10e15d762b8",
+    "lat": -20.64253,
+    "lng": -42.29882,
+    "municipio": "Fervedouro",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T03:28:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "55e07fc1-7837-3cfd-bf94-878927e8c5b7",
+    "lat": -19.18776,
+    "lng": -40.13221,
+    "municipio": "Sooretama",
+    "estado": "ES",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T03:28:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "08c4d99f-4257-3864-b8d2-d53eb0155233",
+    "lat": -8.1225,
+    "lng": -49.8613,
+    "municipio": "Conceição Do Araguaia",
+    "estado": "PA",
+    "risco": "alto",
+    "dataHora": "2026-06-01T03:50:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "164cb49f-4fff-3406-ac98-1ed0b38268f7",
+    "lat": -7.97188,
+    "lng": -34.89475,
+    "municipio": "Paulista",
+    "estado": "PE",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "2969d540-4076-35ac-b708-dad22c05b8e5",
+    "lat": -6.84378,
+    "lng": -47.93054,
+    "municipio": "Wanderlândia",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "d4fca6fe-255f-35a6-aac3-748a958c307e",
+    "lat": -10.72505,
+    "lng": -46.91662,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "9eaa122b-5a04-3f3b-9cf0-cfd6e611e35a",
+    "lat": -11.63422,
+    "lng": -52.56626,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "3f9e37b3-f0a9-367c-8cb6-494326d12baa",
+    "lat": -6.84772,
+    "lng": -47.93126,
+    "municipio": "Wanderlândia",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "c5340962-430a-3e38-9044-36e3ccea50e3",
+    "lat": -10.72233,
+    "lng": -46.93294,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "a782e93d-dbb1-3e63-85d4-c6316302e829",
+    "lat": -6.98904,
+    "lng": -42.88794,
+    "municipio": "Floriano",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "65fbdfe5-4e39-3259-85b8-1c1e4f2a35b8",
+    "lat": -5.60939,
+    "lng": -37.53014,
+    "municipio": "Caraúbas",
+    "estado": "RN",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "ba379f5a-6098-395a-98eb-b1ad06210eb9",
+    "lat": -10.6952,
+    "lng": -49.61266,
+    "municipio": "Lagoa Da Confusão",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "c0583545-0538-39d5-b83c-df06bc540919",
+    "lat": -11.59014,
+    "lng": -47.44264,
+    "municipio": "Natividade",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "ce0221e2-5383-36f4-9674-003b007e555d",
+    "lat": -12.06108,
+    "lng": -48.07046,
+    "municipio": "Paranã",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "6f54a915-5f87-3a1e-b249-b4120c9e32d3",
+    "lat": -5.10292,
+    "lng": -46.94524,
+    "municipio": "João Lisboa",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "338a2a1a-6d87-340d-83e0-064a442188fa",
+    "lat": -10.06289,
+    "lng": -51.66362,
+    "municipio": "Vila Rica",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "6c97aed9-9678-30fd-9974-25b18438ca88",
+    "lat": -11.74159,
+    "lng": -54.79694,
+    "municipio": "Cláudia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "03e5d91a-030c-3c35-ac2a-10596b79d179",
+    "lat": -6.75843,
+    "lng": -45.02842,
+    "municipio": "Loreto",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "9ec898b4-661a-3053-8615-faca41e77022",
+    "lat": -11.61548,
+    "lng": -52.55681,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "4e720845-8f59-3b06-9fcf-941004a98fc2",
+    "lat": -6.99013,
+    "lng": -42.88101,
+    "municipio": "Floriano",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "4c703dc3-96c7-3515-854f-9e7b957189b2",
+    "lat": -10.54915,
+    "lng": -46.64453,
+    "municipio": "Mateiros",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "d5ddc771-11a4-3913-949d-a8af41d47fef",
+    "lat": -11.74317,
+    "lng": -54.78901,
+    "municipio": "Cláudia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "9c7ce857-9e55-3d30-88e8-611e2d980157",
+    "lat": -11.61163,
+    "lng": -52.55007,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "e26b0753-b1fe-3642-9ef9-ea8960a8d543",
+    "lat": -7.16835,
+    "lng": -44.07016,
+    "municipio": "Porto Alegre Do Piauí",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "144610c6-eae7-37c5-b48c-eef17f324d0c",
+    "lat": -12.32195,
+    "lng": -47.90419,
+    "municipio": "Paranã",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "7a61e3e0-c5b8-38ea-b763-885ec91a1e1e",
+    "lat": -10.86002,
+    "lng": -46.93499,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "aac0b9a7-a5c1-3a4b-8549-7dc13d66656e",
+    "lat": -12.31756,
+    "lng": -47.90792,
+    "municipio": "Paranã",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "de705084-3818-3ccd-8120-0b58692033b9",
+    "lat": -6.98959,
+    "lng": -42.88447,
+    "municipio": "Floriano",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "952c9c10-a0ff-3023-9f14-411265caca75",
+    "lat": -12.40849,
+    "lng": -47.49931,
+    "municipio": "Conceição Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "acb617a3-2309-3948-a649-6648bcc8e0e9",
+    "lat": -5.10342,
+    "lng": -46.94817,
+    "municipio": "João Lisboa",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "86fb9cd1-3a27-3ede-a4f5-93ad48777e09",
+    "lat": -10.74415,
+    "lng": -46.9114,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "bcafb843-1b08-3f45-834d-363d72145157",
+    "lat": -10.72656,
+    "lng": -46.92949,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "f5251508-9269-3277-9980-6d40cc3f1e2c",
+    "lat": -7.31509,
+    "lng": -46.9937,
+    "municipio": "Carolina",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "62d3d2f4-b419-3e67-ae92-32fd01298b78",
+    "lat": -10.06205,
+    "lng": -49.75417,
+    "municipio": "Pium",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "ad85a004-1db9-3efd-9ef6-c01406990e75",
+    "lat": -5.51998,
+    "lng": -37.62189,
+    "municipio": "Felipe Guerra",
+    "estado": "RN",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "2deaa6f3-5aeb-3f9c-8d93-890a123cf86a",
+    "lat": -12.40492,
+    "lng": -47.49868,
+    "municipio": "Conceição Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "aac3bc65-bca5-31aa-853e-f32b964668ab",
+    "lat": -11.61597,
+    "lng": -52.55136,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "bbcb34fa-156a-3c73-8e63-3df6b3f32ecd",
+    "lat": -10.55266,
+    "lng": -46.64512,
+    "municipio": "Mateiros",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "3523729d-25fa-3417-bbdf-01736b65acb8",
+    "lat": -10.72301,
+    "lng": -46.92888,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "7e04cef7-998c-371d-ba54-f8f990e5d3e5",
+    "lat": -10.2715,
+    "lng": -46.22194,
+    "municipio": "Mateiros",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "45f2288e-3356-3e08-b8e4-1044c7153195",
+    "lat": -10.8045,
+    "lng": -49.39358,
+    "municipio": "Santa Rita Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "a079bd83-e01d-3ca5-a794-05d4be6abc15",
+    "lat": -12.31391,
+    "lng": -47.90725,
+    "municipio": "Paranã",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "cbb7b885-4d4b-3034-999c-0778cae47c92",
+    "lat": -7.17501,
+    "lng": -44.07122,
+    "municipio": "Porto Alegre Do Piauí",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "f5d177f3-46f3-32a0-a527-4bc42b9977d4",
+    "lat": -12.31027,
+    "lng": -47.90656,
+    "municipio": "Paranã",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "bc61afd2-1311-3661-8592-466af2350004",
+    "lat": -10.0571,
+    "lng": -51.66809,
+    "municipio": "Vila Rica",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "5672aed9-5ae6-31fa-befb-76ef86e7beae",
+    "lat": -12.40719,
+    "lng": -47.49805,
+    "municipio": "Conceição Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "641afd62-1c9f-335b-812b-d322fb2bb6fb",
+    "lat": -10.80727,
+    "lng": -49.40168,
+    "municipio": "Santa Rita Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "4fed1403-6c10-3974-b09f-6bb7051b0b29",
+    "lat": -10.75549,
+    "lng": -46.90889,
+    "municipio": "Mateiros",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "3dfef99f-a963-3546-825f-d4ce49ba0aaf",
+    "lat": -10.76258,
+    "lng": -46.91008,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "d7569921-a52b-38ff-8ee4-bc7635ba1f9c",
+    "lat": -10.72943,
+    "lng": -46.93413,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "17da26ec-4b10-3e3e-b691-e863ed2bf86b",
+    "lat": -10.84834,
+    "lng": -53.75166,
+    "municipio": "Marcelândia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "6fd96cd9-f325-3973-a3d0-426ce1df022a",
+    "lat": -10.72014,
+    "lng": -46.92424,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "2f5dcd8e-a811-3b94-9179-eb9eb60689b0",
+    "lat": -11.33329,
+    "lng": -47.18279,
+    "municipio": "Almas",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "dd41d9c4-2c7e-36b7-9201-31ca4e388535",
+    "lat": -6.99399,
+    "lng": -42.87806,
+    "municipio": "Floriano",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "55448b5b-2d9e-33d5-8705-6af2a34dee2b",
+    "lat": -10.85379,
+    "lng": -53.75262,
+    "municipio": "Marcelândia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "2b66c0b5-70c5-3131-b889-4558f5bba412",
+    "lat": -10.84698,
+    "lng": -53.75252,
+    "municipio": "Marcelândia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "17554d92-ad17-32fd-80f7-058f8cc38d04",
+    "lat": -10.72791,
+    "lng": -46.92136,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "7cb7a02a-89b4-365f-9cbd-9c6cda45972e",
+    "lat": -10.73011,
+    "lng": -46.93009,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "86219256-e35b-3132-93ae-bb92d89c1318",
+    "lat": -10.85243,
+    "lng": -53.7535,
+    "municipio": "Marcelândia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "ba177778-3176-3d52-949b-efc2e5695a2d",
+    "lat": -11.33685,
+    "lng": -47.18343,
+    "municipio": "Almas",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "24b1446b-7931-3969-9524-ce9bf05b57ef",
+    "lat": -11.62925,
+    "lng": -52.56535,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "7d6fa08a-2100-3ee7-8548-3f68e832683d",
+    "lat": -7.97146,
+    "lng": -34.89784,
+    "municipio": "Paulista",
+    "estado": "PE",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "08bc98cf-b00b-3ce0-bafa-04f4d906f5ee",
+    "lat": -5.09961,
+    "lng": -46.94756,
+    "municipio": "João Lisboa",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "8b648c37-cc03-3996-86db-61edeec203c6",
+    "lat": -12.3183,
+    "lng": -47.90352,
+    "municipio": "Paranã",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "8d30fb58-44af-333d-b042-300058cf2c2b",
+    "lat": -5.61191,
+    "lng": -37.52996,
+    "municipio": "Caraúbas",
+    "estado": "RN",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "9cdcdf9b-d098-3557-8558-3b7df025065f",
+    "lat": -7.31435,
+    "lng": -46.99813,
+    "municipio": "Carolina",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "b70c02be-a714-3252-8400-46e0bd9b6591",
+    "lat": -10.80663,
+    "lng": -49.40533,
+    "municipio": "Santa Rita Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "007f4169-4528-3604-8bf8-d0734278a59b",
+    "lat": -10.96964,
+    "lng": -49.43072,
+    "municipio": "Santa Rita Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "8245ba83-9a98-3c80-8275-ba2c6820d994",
+    "lat": -11.61658,
+    "lng": -52.55104,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "222b7ec7-ce28-375d-8eee-f4d6027434f0",
+    "lat": -6.72506,
+    "lng": -44.37165,
+    "municipio": "Pastos Bons",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "8f63e33a-d9d1-3932-aa33-d1c788a4d01b",
+    "lat": -8.14251,
+    "lng": -40.80118,
+    "municipio": "Betânia Do Piauí",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "78292902-65ca-34a0-990a-95456f2ac8e8",
+    "lat": -7.16502,
+    "lng": -44.06964,
+    "municipio": "Porto Alegre Do Piauí",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "99771141-ca79-3e02-870a-ba69e2c89aa6",
+    "lat": -10.80385,
+    "lng": -49.39723,
+    "municipio": "Santa Rita Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "4d954a86-151b-3f78-8797-c37627f7e9af",
+    "lat": -6.72302,
+    "lng": -44.37149,
+    "municipio": "Pastos Bons",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "e028e663-62ad-3b78-96a6-783614ef0f79",
+    "lat": -11.62873,
+    "lng": -52.56573,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "8fdae542-70ea-3575-9393-995936a41720",
+    "lat": -12.06032,
+    "lng": -48.07491,
+    "municipio": "São Valério",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "99744987-e847-3a8a-928e-e8a7836f4895",
+    "lat": -10.72588,
+    "lng": -46.93354,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "bd295143-390b-3eed-a980-d56e66c6b3ad",
+    "lat": -6.99344,
+    "lng": -42.88153,
+    "municipio": "Floriano",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "e87492db-d1a5-3d27-ae79-8572e7a626cd",
+    "lat": -5.61352,
+    "lng": -37.53075,
+    "municipio": "Caraúbas",
+    "estado": "RN",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "9bec0c5b-510b-3a23-975f-f2da52b6bd5b",
+    "lat": -11.32617,
+    "lng": -47.18152,
+    "municipio": "Almas",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "8bc4fd9e-f55a-33f6-9135-1846813665a7",
+    "lat": -10.75904,
+    "lng": -46.90947,
+    "municipio": "Mateiros",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "6427005c-9748-3b16-ae02-5b69f3e78d04",
+    "lat": -11.33479,
+    "lng": -47.19576,
+    "municipio": "Almas",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "cb47969c-baea-3ed3-a2a4-bf1a5380f519",
+    "lat": -7.16891,
+    "lng": -44.06666,
+    "municipio": "Porto Alegre Do Piauí",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "87b20611-d66c-3f39-ab53-6138b5ff104b",
+    "lat": -10.66246,
+    "lng": -49.72565,
+    "municipio": "Lagoa Da Confusão",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "72498564-802e-3cff-807e-64397ea53d1c",
+    "lat": -10.80792,
+    "lng": -49.39802,
+    "municipio": "Santa Rita Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "849aac29-321b-3816-9f3a-c4a85e1976b0",
+    "lat": -11.61491,
+    "lng": -52.55714,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "27d1ebdb-86fe-3c02-9907-e17ce64e81d0",
+    "lat": -12.31905,
+    "lng": -47.89912,
+    "municipio": "Paranã",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "d9880f1b-2f53-31c5-b61b-9b99d3826954",
+    "lat": -7.30025,
+    "lng": -46.99121,
+    "municipio": "Carolina",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "22ff54ef-5858-3334-aba1-18afd838b7d8",
+    "lat": -7.17168,
+    "lng": -44.07069,
+    "municipio": "Porto Alegre Do Piauí",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "d8f2d8ec-7c9c-3c74-b479-fdf5882a81d9",
+    "lat": -10.86356,
+    "lng": -46.93563,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "621ad413-2d2f-30ad-9124-689ceb2738af",
+    "lat": -10.74062,
+    "lng": -46.91072,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:17:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "26425b1f-1770-3355-bd20-304e63f8d348",
+    "lat": -14.2266,
+    "lng": -47.9819,
+    "municipio": "Colinas Do Sul",
+    "estado": "GO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "fc0d5c00-b741-306c-ad93-5e124df4eee2",
+    "lat": -7.95479,
+    "lng": -46.84445,
+    "municipio": "Carolina",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "20b58b51-f32d-3953-8423-3494b52341f4",
+    "lat": -20.94806,
+    "lng": -49.16064,
+    "municipio": "Uchoa",
+    "estado": "SP",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "7397650c-4632-3dc3-ad68-fd05e2b05512",
+    "lat": -9.37408,
+    "lng": -50.54616,
+    "municipio": "Santana Do Araguaia",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "51ecf00f-5079-3c17-aa07-8a252fb8dbd1",
+    "lat": -19.50784,
+    "lng": -46.81038,
+    "municipio": "Ibiá",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "77623e00-cd24-3026-92eb-2181ad9ba6a5",
+    "lat": -20.18583,
+    "lng": -42.32061,
+    "municipio": "Abre Campo",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "ee03411e-6283-3c00-a5ee-bd62866cc70f",
+    "lat": -7.61222,
+    "lng": -49.4687,
+    "municipio": "Floresta Do Araguaia",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "1a83ae0b-589e-35e9-9f05-4c366ffdf746",
+    "lat": -20.3082,
+    "lng": -50.54282,
+    "municipio": "Jales",
+    "estado": "SP",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "d9dddd0c-c1df-37b3-b413-4a48cf7741a3",
+    "lat": -9.70221,
+    "lng": -48.23486,
+    "municipio": "Tocantínia",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "903fbc58-9b32-3fa6-a004-8cc596ccf76c",
+    "lat": -14.98765,
+    "lng": -49.5612,
+    "municipio": "Itapaci",
+    "estado": "GO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "6b62ec5d-7c30-38a9-941b-5a36620de749",
+    "lat": -9.36958,
+    "lng": -50.54534,
+    "municipio": "Santana Do Araguaia",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "f3a5cf3c-8b70-326b-be84-213c94f5d652",
+    "lat": -14.98673,
+    "lng": -49.559,
+    "municipio": "Itapaci",
+    "estado": "GO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "1e748420-6e3a-39cd-9148-6136473f1267",
+    "lat": -7.95461,
+    "lng": -46.84571,
+    "municipio": "Carolina",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "922af67f-3a87-34b7-85de-27722c81df0d",
+    "lat": -13.98875,
+    "lng": -53.8791,
+    "municipio": "Paranatinga",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "f0758e47-32a1-354c-b40d-db109db48e5c",
+    "lat": -20.08658,
+    "lng": -40.4064,
+    "municipio": "Serra",
+    "estado": "ES",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "cc664e43-1570-307d-93fe-7b6bfbdf9baa",
+    "lat": -7.49804,
+    "lng": -55.0047,
+    "municipio": "Altamira",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "8cd262d9-bdc9-34af-ad01-ab0186c44467",
+    "lat": -9.50889,
+    "lng": -47.39127,
+    "municipio": "Rio Sono",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "629fb876-1d4c-3cdc-a8bf-17c7ce5e4a9a",
+    "lat": -8.73178,
+    "lng": -48.32777,
+    "municipio": "Guaraí",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "4a0cf8f2-b8af-3dc5-81c0-3ecc37fb9316",
+    "lat": -13.53381,
+    "lng": -49.90291,
+    "municipio": "Bonópolis",
+    "estado": "GO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "7449b1a5-bf67-382f-9bf8-e9fbcf64c129",
+    "lat": -8.14946,
+    "lng": -47.41096,
+    "municipio": "Goiatins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "c58aab24-9640-36fb-98d0-609585c6e16b",
+    "lat": -19.8502,
+    "lng": -48.06833,
+    "municipio": "Uberaba",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "985e7b20-42ca-36be-913b-77a5d5daa476",
+    "lat": -7.60983,
+    "lng": -49.46681,
+    "municipio": "Floresta Do Araguaia",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "74f71986-1d8d-35e5-9d08-83754b4dcbe1",
+    "lat": -15.34967,
+    "lng": -43.66125,
+    "municipio": "Jaíba",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "8809e60a-bb1c-3d1d-b7c5-01fa2be13af7",
+    "lat": -13.98356,
+    "lng": -53.87814,
+    "municipio": "Paranatinga",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "b2ad2f95-5826-3a64-ac02-5cc4b5ae7508",
+    "lat": -20.08587,
+    "lng": -40.40755,
+    "municipio": "Serra",
+    "estado": "ES",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "884dadf1-f380-3bb0-a020-f4108ec5ea66",
+    "lat": -8.72784,
+    "lng": -48.3271,
+    "municipio": "Guaraí",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "841bb8a6-8fa0-3c60-947d-5101a9924235",
+    "lat": -9.51565,
+    "lng": -40.32691,
+    "municipio": "Juazeiro",
+    "estado": "BA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "15f2435b-d945-3004-95a6-7cb77362cdd6",
+    "lat": -14.98587,
+    "lng": -49.56391,
+    "municipio": "Itapaci",
+    "estado": "GO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "4bf27ca0-c4fc-3baa-a6c2-b12727198d73",
+    "lat": -21.38774,
+    "lng": -47.01919,
+    "municipio": "Mococa",
+    "estado": "SP",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "3b9b9ab6-4b9d-3d16-a8ad-79184b5039ae",
+    "lat": -14.2287,
+    "lng": -47.9912,
+    "municipio": "Colinas Do Sul",
+    "estado": "GO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "d4a426fd-5032-3558-970a-1219ab388b30",
+    "lat": -7.95332,
+    "lng": -46.83095,
+    "municipio": "Carolina",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "731ad400-a4cf-314a-9221-1be5d500eddc",
+    "lat": -8.73263,
+    "lng": -48.32275,
+    "municipio": "Guaraí",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "452f8854-7c52-39d7-bd61-bb2043a7e962",
+    "lat": -7.50426,
+    "lng": -55.00584,
+    "municipio": "Altamira",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "662ba7eb-4c64-384a-8617-abc3d23dd104",
+    "lat": -8.73571,
+    "lng": -48.32847,
+    "municipio": "Guaraí",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "ba02d414-c646-32ba-ab79-f9aa23be5ad9",
+    "lat": -8.11879,
+    "lng": -49.86266,
+    "municipio": "Conceição Do Araguaia",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "541ee2c7-09ff-3355-84bb-d352c365ab58",
+    "lat": -14.23586,
+    "lng": -47.99252,
+    "municipio": "Colinas Do Sul",
+    "estado": "GO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "c0d7965b-6d89-31c5-aba8-e1985db5bcef",
+    "lat": -8.11804,
+    "lng": -49.86696,
+    "municipio": "Conceição Do Araguaia",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "56b2a5dd-5ccd-3912-9ab1-c6f7c93ec39b",
+    "lat": -13.53784,
+    "lng": -49.90365,
+    "municipio": "Bonópolis",
+    "estado": "GO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "b605de3d-9a57-3119-9a03-2a8243015562",
+    "lat": -14.23151,
+    "lng": -47.99636,
+    "municipio": "Colinas Do Sul",
+    "estado": "GO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "9faf262f-35c4-377b-9e59-0610a37c9cf3",
+    "lat": -7.5005,
+    "lng": -55.00356,
+    "municipio": "Altamira",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "bc4c8f46-30fa-3f5c-a1af-513eb90610ed",
+    "lat": -8.12319,
+    "lng": -49.86343,
+    "municipio": "Conceição Do Araguaia",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "fecd7b55-dc72-3098-94cb-5fa816f56df4",
+    "lat": -7.49962,
+    "lng": -55.0084,
+    "municipio": "Altamira",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "bb57f891-5ae4-3eb5-a17d-df08acaf0396",
+    "lat": -15.0018,
+    "lng": -41.95808,
+    "municipio": "Cordeiros",
+    "estado": "BA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "3fb70bbe-2b5f-3c47-8b98-9bb3590a8f6a",
+    "lat": -14.08823,
+    "lng": -58.74721,
+    "municipio": "Tangará Da Serra",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "59de2b5d-d7fb-3f75-81c8-d63b75271676",
+    "lat": -7.50584,
+    "lng": -55.00957,
+    "municipio": "Altamira",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "32c90f4b-5a85-31bb-969d-42d7995f637e",
+    "lat": -20.3339,
+    "lng": -41.95653,
+    "municipio": "Manhumirim",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "2c0413e4-8f77-3bb0-8c01-cb9c2a14072b",
+    "lat": -20.31195,
+    "lng": -50.54364,
+    "municipio": "Jales",
+    "estado": "SP",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "7a643bb2-744c-38b0-ab54-92338ffe46a4",
+    "lat": -14.30249,
+    "lng": -49.24117,
+    "municipio": "Nova Iguaçu De Goiás",
+    "estado": "GO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:19:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "9ce17a75-cca4-394d-b74c-b3b59a9b3cf7",
+    "lat": -22.55389,
+    "lng": -47.05643,
+    "municipio": "Artur Nogueira",
+    "estado": "SP",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:21:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "3f9efe7b-bc21-3e37-89ce-8103f29399f4",
+    "lat": -22.55057,
+    "lng": -47.05582,
+    "municipio": "Artur Nogueira",
+    "estado": "SP",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:21:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "823e76b2-d69f-35a2-88f8-3c96d68e8c44",
+    "lat": -22.26358,
+    "lng": -48.23348,
+    "municipio": "Brotas",
+    "estado": "SP",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:21:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "712a92aa-284e-315f-815e-660f4643cda4",
+    "lat": -22.69917,
+    "lng": -43.35996,
+    "municipio": "Belford Roxo",
+    "estado": "RJ",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T04:21:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "c3dfd1e1-9953-35cd-ae64-f489266fc43a",
+    "lat": -6.99413,
+    "lng": -42.88588,
+    "municipio": "Floriano",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:04:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "cb67934b-ac58-3f6c-ac70-2452a7e564cb",
+    "lat": -6.99493,
+    "lng": -42.87964,
+    "municipio": "Floriano",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:04:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "3f68f406-037c-3b42-a7dc-d46af6a905bd",
+    "lat": -8.12697,
+    "lng": -49.86578,
+    "municipio": "Conceição Do Araguaia",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:04:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "6fc6ef48-d44e-3171-a727-17e2dd3f3db1",
+    "lat": -7.50557,
+    "lng": -55.00558,
+    "municipio": "Altamira",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:04:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "5736a706-d5b8-33c0-936d-c4fdf58ec198",
+    "lat": -7.50836,
+    "lng": -55.00963,
+    "municipio": "Altamira",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:04:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "b52295d9-a139-33d9-8ed0-24dc0c90793e",
+    "lat": -8.02705,
+    "lng": -49.58667,
+    "municipio": "Conceição Do Araguaia",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:04:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "8d45aa63-a7c6-39e1-b1c4-41c2349f39df",
+    "lat": -8.12263,
+    "lng": -49.86512,
+    "municipio": "Conceição Do Araguaia",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:04:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "a8d63105-82ba-3192-b653-e61415b4b5d4",
+    "lat": -8.11828,
+    "lng": -49.86448,
+    "municipio": "Conceição Do Araguaia",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:04:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "f3b9450e-fbc2-3aad-99ae-04307a500fe7",
+    "lat": -7.50503,
+    "lng": -55.00909,
+    "municipio": "Altamira",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:04:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "44037145-59fb-3450-aa55-f17ed54e1494",
+    "lat": -7.50225,
+    "lng": -55.00506,
+    "municipio": "Altamira",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:04:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "b4793812-2f09-3942-b5f0-cd030e5093d3",
+    "lat": -7.50278,
+    "lng": -55.00155,
+    "municipio": "Altamira",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:04:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "46657110-658c-38e1-93c5-4330c47ed49d",
+    "lat": -6.98733,
+    "lng": -42.88508,
+    "municipio": "Floriano",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:04:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "8afc150f-b34a-302f-b8e2-4d678cb0b3ca",
+    "lat": -5.10288,
+    "lng": -46.94696,
+    "municipio": "João Lisboa",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:04:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "e6e381b2-6040-3abb-8920-49193711754d",
+    "lat": -10.56995,
+    "lng": -57.32451,
+    "municipio": "Juara",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "1a59b11e-4d4b-3cc6-bad9-79bc5c7c3438",
+    "lat": -13.99243,
+    "lng": -53.87672,
+    "municipio": "Paranatinga",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "08504cff-2d70-32d8-a3ae-2f073242dc63",
+    "lat": -12.31689,
+    "lng": -47.90849,
+    "municipio": "Paranã",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "a0f63489-efeb-3128-bd73-db99acd226db",
+    "lat": -11.62964,
+    "lng": -56.86077,
+    "municipio": "Porto Dos Gaúchos",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "20e3ce06-b53f-30cb-ae14-36a313c6d10e",
+    "lat": -10.06516,
+    "lng": -51.66225,
+    "municipio": "Vila Rica",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "46aee2cc-f605-3459-bb83-90b1f326317b",
+    "lat": -9.3699,
+    "lng": -50.54361,
+    "municipio": "Santana Do Araguaia",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "77246190-59f2-3f0d-97dd-ce15e386292d",
+    "lat": -9.37413,
+    "lng": -50.54422,
+    "municipio": "Santana Do Araguaia",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "99ff1a13-6cbe-370f-825a-3fafd1b57a9e",
+    "lat": -11.63595,
+    "lng": -52.56404,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "8b2c6776-78f3-3b30-918f-d29e026ca6cf",
+    "lat": -10.06045,
+    "lng": -51.6668,
+    "municipio": "Vila Rica",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "2b5a4474-7281-35b8-9a72-63a3bbc4f1f4",
+    "lat": -9.37836,
+    "lng": -50.54483,
+    "municipio": "Santana Do Araguaia",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "d2cc9ce4-1a7a-3f09-aeb1-65f8d8870143",
+    "lat": -12.06125,
+    "lng": -48.07869,
+    "municipio": "São Valério",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "c9a48099-7425-32ca-89d8-7f03283820cc",
+    "lat": -8.73846,
+    "lng": -48.32545,
+    "municipio": "Guaraí",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "84b90fdb-bea4-31fc-8f8e-d5549819f8a6",
+    "lat": -10.71799,
+    "lng": -46.92371,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "5ddedd18-c719-3c94-ac0f-7d5a9259ee7c",
+    "lat": -12.54734,
+    "lng": -57.17144,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "9a4f484f-c454-358c-b885-a7ebf0dfa791",
+    "lat": -11.62131,
+    "lng": -52.55688,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "c8ee7d1b-46b6-3af1-9147-6dd1ddb4ab6f",
+    "lat": -11.22181,
+    "lng": -53.82767,
+    "municipio": "Marcelândia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "56f65241-3858-3b05-b01f-431eb1ac076c",
+    "lat": -10.80531,
+    "lng": -49.39367,
+    "municipio": "Santa Rita Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "7831c94a-ccdf-32c6-8905-0b5661c4b73a",
+    "lat": -10.80698,
+    "lng": -49.39646,
+    "municipio": "Santa Rita Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "5d7816c1-3706-3710-929c-70079a6fdc0a",
+    "lat": -11.63909,
+    "lng": -52.56944,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "dde9a39a-0ac2-36ee-a1f8-fec312c59bea",
+    "lat": -7.4557,
+    "lng": -63.79404,
+    "municipio": "Canutama",
+    "estado": "AM",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "c87037f6-1f97-3b85-930d-d45242d91960",
+    "lat": -8.73358,
+    "lng": -48.32474,
+    "municipio": "Guaraí",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "facca287-8f22-3c5e-bcec-9fd2f239f793",
+    "lat": -11.7959,
+    "lng": -57.01708,
+    "municipio": "Porto Dos Gaúchos",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "b31a67ad-27dd-383d-b37e-4c5f3ccb5e4b",
+    "lat": -11.74073,
+    "lng": -54.79662,
+    "municipio": "Cláudia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "88115ba4-21fe-3ac1-9da7-593919d395a4",
+    "lat": -11.79535,
+    "lng": -57.02058,
+    "municipio": "Porto Dos Gaúchos",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "81bee57b-35b0-319c-9a05-d2fc2d19edc3",
+    "lat": -11.61748,
+    "lng": -52.5563,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "e342aa3a-5f73-3647-b7de-6d8393b042a5",
+    "lat": -11.62761,
+    "lng": -52.56767,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "b13ee10e-7065-33c9-8950-a4e28cb7cfd6",
+    "lat": -13.98511,
+    "lng": -53.87556,
+    "municipio": "Paranatinga",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "fa367a9a-40c3-372c-8873-f17a191a0641",
+    "lat": -12.06204,
+    "lng": -48.07219,
+    "municipio": "São Valério",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "f4b76ccb-0737-3e4f-8d7c-d6267c06756f",
+    "lat": -13.98877,
+    "lng": -53.87615,
+    "municipio": "Paranatinga",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "0eec79ce-10b6-30d4-9f25-570328d53273",
+    "lat": -12.31807,
+    "lng": -47.89879,
+    "municipio": "Paranã",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "d8f71fd2-13e8-34e3-aff3-c79ac03fa454",
+    "lat": -11.56825,
+    "lng": -54.59108,
+    "municipio": "União Do Sul",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "c6c62124-7757-37b9-8f3b-88c71f4d4b64",
+    "lat": -12.31768,
+    "lng": -47.90203,
+    "municipio": "Paranã",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "35b7947d-dc0e-3953-87e0-6db2b3bb59c7",
+    "lat": -12.54679,
+    "lng": -57.17495,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "f281a3ee-8309-3b79-96ee-79dbcb72f216",
+    "lat": -10.72304,
+    "lng": -46.92829,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "d1366a31-891e-37f3-9eb2-d9176f08081e",
+    "lat": -10.69754,
+    "lng": -49.61477,
+    "municipio": "Lagoa Da Confusão",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "300716f6-4f9a-37d9-8f89-4d39bfc7e9be",
+    "lat": -11.63978,
+    "lng": -52.56462,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "94afb146-bbc3-38be-b7e0-81830d634178",
+    "lat": -11.54867,
+    "lng": -56.33102,
+    "municipio": "Tabaporã",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "c24af4aa-375e-3583-b339-3ce64cfebe3a",
+    "lat": -11.73673,
+    "lng": -54.7999,
+    "municipio": "Cláudia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "e64284be-85d3-3505-a370-6d3d1c025c4a",
+    "lat": -11.63144,
+    "lng": -52.56826,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "24911ed9-5c63-3f50-89aa-eaf60bde5a89",
+    "lat": -11.61816,
+    "lng": -52.55149,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "22e7d5a3-71ff-37c1-b8e3-8268c8311583",
+    "lat": -8.73284,
+    "lng": -48.33028,
+    "municipio": "Guaraí",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "2898cebf-2404-38c2-a7ff-53427da82a13",
+    "lat": -10.57382,
+    "lng": -57.32154,
+    "municipio": "Juara",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "c0194c6b-34c8-32a3-9c2b-f9ab7c66e126",
+    "lat": -11.63526,
+    "lng": -52.56886,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "60d50bb8-d34a-37da-9f1e-5211e5dc4ae0",
+    "lat": -10.06771,
+    "lng": -51.664,
+    "municipio": "Vila Rica",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "08bf0d37-4990-3d1b-8441-46e2e131c1d6",
+    "lat": -11.62829,
+    "lng": -52.56287,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "2212f719-2e42-39aa-9f20-e91f090cd3a2",
+    "lat": -9.36936,
+    "lng": -50.54758,
+    "municipio": "Santana Do Araguaia",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "5a223963-53d5-3e94-9fb5-2315d8f05ea9",
+    "lat": -12.06165,
+    "lng": -48.07544,
+    "municipio": "São Valério",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "1e526060-3596-35bf-aa2a-e8f46eb9b2e1",
+    "lat": -13.53737,
+    "lng": -49.90363,
+    "municipio": "Bonópolis",
+    "estado": "GO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "a37e5867-63fd-3945-87f4-ed7b5f58b770",
+    "lat": -11.61433,
+    "lng": -52.55092,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "4bd866b1-1e66-3e12-a4b3-bfa9172e5028",
+    "lat": -9.25227,
+    "lng": -57.77225,
+    "municipio": "Apiacás",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "36c0c39a-433e-3bb9-941d-f4666420b823",
+    "lat": -12.32296,
+    "lng": -47.90269,
+    "municipio": "Paranã",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "cb4bedf0-04e7-3568-a1bf-38fb1f2c409e",
+    "lat": -12.31728,
+    "lng": -47.90526,
+    "municipio": "Paranã",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "08dfdc10-e02a-3134-b627-918553ced2d0",
+    "lat": -11.61365,
+    "lng": -52.55573,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "0985c9db-feae-34ac-b490-d60d8282785b",
+    "lat": -11.56537,
+    "lng": -54.58673,
+    "municipio": "União Do Sul",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "3ad13cdb-01d9-3e62-9580-aaaf344dd0a6",
+    "lat": -10.86219,
+    "lng": -46.93917,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "1c779d01-1b84-36b9-a33c-6915a0c78a94",
+    "lat": -13.9845,
+    "lng": -53.87999,
+    "municipio": "Paranatinga",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "a1d067a6-d653-39f2-bb0a-8f9517312ceb",
+    "lat": -10.7235,
+    "lng": -46.92455,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "a9458928-f646-3cf1-bb66-aca51d8a8c86",
+    "lat": -10.81395,
+    "lng": -56.59356,
+    "municipio": "Tabaporã",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "d79d2365-65dc-3fd3-971b-7179f4fbd8aa",
+    "lat": -11.57055,
+    "lng": -54.5757,
+    "municipio": "União Do Sul",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "88e87cd6-6290-336b-ab3a-377edb2ac06e",
+    "lat": -11.7926,
+    "lng": -57.01655,
+    "municipio": "Porto Dos Gaúchos",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "62a309de-f511-3cf0-994f-90c8cb7b42ce",
+    "lat": -10.80935,
+    "lng": -49.39925,
+    "municipio": "Santa Rita Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "731185f8-db84-320d-adc7-a490d405a9b4",
+    "lat": -10.07168,
+    "lng": -51.66457,
+    "municipio": "Vila Rica",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "39c83756-da35-34f0-a077-c25660f34026",
+    "lat": -12.32257,
+    "lng": -47.90591,
+    "municipio": "Paranã",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "ad8b796c-52fa-314c-b952-b6c8d8cc0109",
+    "lat": -11.63212,
+    "lng": -52.56346,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "2437786d-51bc-3493-8789-a44b62793466",
+    "lat": -9.37358,
+    "lng": -50.5482,
+    "municipio": "Santana Do Araguaia",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "d317c09e-d8bc-3462-9acc-eddc32988d42",
+    "lat": -12.5501,
+    "lng": -57.17548,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "08e179d9-918f-3431-abca-236a8c04a076",
+    "lat": -11.02275,
+    "lng": -54.32112,
+    "municipio": "Marcelândia",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:06:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "958c426b-f57f-3ad2-91aa-a1d03ab3ee0e",
+    "lat": -20.31194,
+    "lng": -50.54188,
+    "municipio": "Jales",
+    "estado": "SP",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:08:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "7474f2ab-569d-3bcb-954e-bd20a09d0369",
+    "lat": -20.3095,
+    "lng": -50.54742,
+    "municipio": "Jales",
+    "estado": "SP",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:08:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "048a3938-ffee-3fea-bcb3-e58fc97d2c49",
+    "lat": -20.31015,
+    "lng": -50.54155,
+    "municipio": "Jales",
+    "estado": "SP",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:08:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "f25aefe2-c649-37e0-81b7-a88d2eee24b6",
+    "lat": -20.31133,
+    "lng": -50.54775,
+    "municipio": "Jales",
+    "estado": "SP",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:08:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "79caaff6-0c49-3432-be4e-6cdd4ec4bd05",
+    "lat": -7.5091,
+    "lng": -55.00957,
+    "municipio": "Altamira",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:57:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "581730d5-871b-37eb-9843-dfee92665551",
+    "lat": -7.455,
+    "lng": -63.79173,
+    "municipio": "Canutama",
+    "estado": "AM",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:57:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "6e317efa-62da-3345-8758-95b2eb9b6085",
+    "lat": -7.50207,
+    "lng": -55.00813,
+    "municipio": "Altamira",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:57:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "bcd5867b-8130-3a9f-8d57-f9e7f9ac05cb",
+    "lat": -7.4545,
+    "lng": -63.79521,
+    "municipio": "Canutama",
+    "estado": "AM",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T05:57:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "9987e67b-f769-39ca-a4ba-d08f6f92a56d",
+    "lat": -12.3177,
+    "lng": -47.90552,
+    "municipio": "Paranã",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T06:29:00Z",
+    "satelite": "AQUA_M-M"
+  },
+  {
+    "id": "29cf5af5-a12a-3b0a-bc01-3fe85f82915f",
+    "lat": -8.60668,
+    "lng": -47.47116,
+    "municipio": "Itacajá",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T11:53:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "cfbf6330-9771-3332-bd82-f55916f446b5",
+    "lat": -6.64341,
+    "lng": -43.92061,
+    "municipio": "Nova Iorque",
+    "estado": "MA",
+    "risco": "medio",
+    "dataHora": "2026-06-01T11:53:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "ef60e08a-736b-38dc-b3a0-8363daea0ee9",
+    "lat": -6.75688,
+    "lng": -45.02913,
+    "municipio": "Loreto",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T11:53:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "834b8d45-9ace-3d4e-bbfa-5464b552caa0",
+    "lat": -6.75822,
+    "lng": -45.01956,
+    "municipio": "Loreto",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T11:53:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "b3bae0ac-c65a-354a-bf65-085726228a8f",
+    "lat": -6.89307,
+    "lng": -47.9579,
+    "municipio": "Wanderlândia",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T11:53:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "c03cdac6-2e19-3ca3-a639-f7cddb16a3b7",
+    "lat": -6.99027,
+    "lng": -42.88029,
+    "municipio": "Floriano",
+    "estado": "PI",
+    "risco": "medio",
+    "dataHora": "2026-06-01T11:53:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "8aada917-277b-37c6-9dd1-2b3e70870e70",
+    "lat": -12.31795,
+    "lng": -47.90338,
+    "municipio": "Paranã",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T11:55:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "9acf0d7f-4cb4-3665-94a5-bcdbdcc3819a",
+    "lat": -10.07127,
+    "lng": -51.66171,
+    "municipio": "Vila Rica",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T11:55:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "56d10383-c004-369a-aa98-5877d36fd30d",
+    "lat": -10.46932,
+    "lng": -50.86204,
+    "municipio": "Santa Terezinha",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T11:55:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "02643281-a9ff-3ddf-a429-8c4233c270e7",
+    "lat": -11.58966,
+    "lng": -47.44146,
+    "municipio": "Natividade",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T11:55:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "0e7ca605-6a8e-3dc2-8b5d-d55aac6d62ea",
+    "lat": -14.05753,
+    "lng": -46.32068,
+    "municipio": "Posse",
+    "estado": "GO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T11:55:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "cf3446ad-fd7a-3331-9458-281271871d93",
+    "lat": -14.05617,
+    "lng": -46.33072,
+    "municipio": "Posse",
+    "estado": "GO",
+    "risco": "alto",
+    "dataHora": "2026-06-01T11:55:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "dc7f8f31-379a-310a-ad72-625359c132bb",
+    "lat": -14.05482,
+    "lng": -46.34074,
+    "municipio": "Posse",
+    "estado": "GO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T11:55:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "61876852-35a7-301b-8f82-32f78e3538ea",
+    "lat": -12.42032,
+    "lng": -48.72169,
+    "municipio": "Jaú Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T11:55:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "2a3d0a35-8648-32cb-8781-78b4916ce848",
+    "lat": -10.73121,
+    "lng": -46.92782,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T11:55:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "35ed40dc-e702-343d-a071-92d7c6c32d3d",
+    "lat": -10.72994,
+    "lng": -46.93684,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "medio",
+    "dataHora": "2026-06-01T11:55:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "01cb2c52-dbc1-3d67-a80d-ca6521f04bda",
+    "lat": -16.6846,
+    "lng": -49.40389,
+    "municipio": "Goiânia",
+    "estado": "GO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T11:57:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "cc1d8117-e974-33c4-89f5-92cab088a7a8",
+    "lat": -21.63339,
+    "lng": -48.3433,
+    "municipio": "Matão",
+    "estado": "SP",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T11:57:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "375c30ea-ef38-31cc-b0af-58692f808a49",
+    "lat": -14.76001,
+    "lng": -52.67306,
+    "municipio": "Nova Xavantina",
+    "estado": "MT",
+    "risco": "medio",
+    "dataHora": "2026-06-01T11:57:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "d7750dde-3e4d-3fca-b285-d430aa222fd4",
+    "lat": -20.19478,
+    "lng": -49.56561,
+    "municipio": "Paulo De Faria",
+    "estado": "SP",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T11:57:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "8099c4f6-e7c1-3a97-ac16-67e9db752234",
+    "lat": -20.18595,
+    "lng": -49.56424,
+    "municipio": "Paulo De Faria",
+    "estado": "SP",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T11:57:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "a9d51f6e-eab4-3022-ad33-04412650fb10",
+    "lat": -15.01296,
+    "lng": -45.43143,
+    "municipio": "Januária",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T11:57:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "94c92b4a-5926-3c4b-bcc7-bd4ae5e14841",
+    "lat": -21.81252,
+    "lng": -49.12864,
+    "municipio": "Iacanga",
+    "estado": "SP",
+    "risco": "medio",
+    "dataHora": "2026-06-01T11:57:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "8c88a8e3-ae0f-3ba5-8114-6476e3f81aef",
+    "lat": -17.70313,
+    "lng": -45.5248,
+    "municipio": "João Pinheiro",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T11:57:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "d63cd4a5-06b7-3a78-8585-fc3665cdc602",
+    "lat": -14.77058,
+    "lng": -52.67496,
+    "municipio": "Nova Xavantina",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T11:57:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "ced0fde0-3806-3da8-ad7d-d270b9b2e946",
+    "lat": -17.71103,
+    "lng": -53.27728,
+    "municipio": "Alto Taquari",
+    "estado": "MT",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T11:57:00Z",
+    "satelite": "TERRA_M-M"
+  },
+  {
+    "id": "00a07e94-b920-35b7-b69e-06efb0d307bf",
+    "lat": -13.3383,
+    "lng": -52.8844,
+    "municipio": "Canarana",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T13:10:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "5465b967-0ab1-34d2-a6e4-e47a9667ba2f",
+    "lat": -12.556,
+    "lng": -57.1798,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T13:10:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "7acc8b27-4804-35ec-9309-09812a156f78",
+    "lat": -12.556,
+    "lng": -57.1798,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T13:20:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "44c7d675-a6a5-3126-84a5-45bfe34beade",
+    "lat": -12.556,
+    "lng": -57.1798,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T13:30:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "220bb49d-391f-3543-841c-854823bc2434",
+    "lat": -12.556,
+    "lng": -57.1798,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T13:40:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "bd57d61f-878c-3ba8-a341-6603d0e76d65",
+    "lat": -12.556,
+    "lng": -57.1798,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T14:00:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "0f905ec8-7d8f-3c5c-8df2-446d39acf4d0",
+    "lat": -12.556,
+    "lng": -57.1798,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T14:10:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "2f35ee51-0d98-3433-91ca-43325ae2fe59",
+    "lat": -12.556,
+    "lng": -57.1798,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T14:20:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "4f7cbd3b-2fdf-30c1-96ee-e8d4d61485ae",
+    "lat": -11.6332,
+    "lng": -55.1641,
+    "municipio": "Cláudia",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T14:30:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "f43fb489-4e23-3bbc-9df3-532e56fc47a2",
+    "lat": -12.556,
+    "lng": -57.1798,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T14:50:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "421ce6c4-f06b-38b3-a5c1-7ddb682de309",
+    "lat": -12.556,
+    "lng": -57.1798,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T15:00:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "edafb5dd-b57e-3224-825a-adbd7726a684",
+    "lat": -12.556,
+    "lng": -57.1798,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T15:10:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "67da62c2-4ea2-36dc-beb6-21f2cc202d75",
+    "lat": -11.5647,
+    "lng": -54.5794,
+    "municipio": "União Do Sul",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T15:10:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "4064743c-bb1c-389f-907e-3294694dc1a9",
+    "lat": -5.52033,
+    "lng": -37.48384,
+    "municipio": "Governador Dix-sept Rosado",
+    "estado": "RN",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:14:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "456434f8-0411-35a2-8450-4d5030577b95",
+    "lat": -5.52006,
+    "lng": -37.48442,
+    "municipio": "Governador Dix-sept Rosado",
+    "estado": "RN",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:14:00Z",
+    "satelite": "NOAA-20"
+  },
+  {
+    "id": "1f29a465-bb73-3ff9-865c-4e6ce447c310",
+    "lat": -12.556,
+    "lng": -57.1798,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T15:20:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "4a55be2b-74de-3fd9-a295-6fb1e6ef58b0",
+    "lat": -12.307,
+    "lng": -57.4008,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T15:20:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "185ebb2e-18bb-32ea-9c91-6ad27fcb307a",
+    "lat": -12.307,
+    "lng": -57.4008,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T15:30:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "84c7bcf1-020a-3404-a398-6c8dfba52748",
+    "lat": -12.307,
+    "lng": -57.4008,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T15:40:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "f0c11f29-4b2c-3e33-a76d-e5dbf7aef608",
+    "lat": -11.5647,
+    "lng": -54.5794,
+    "municipio": "União Do Sul",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T15:50:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "82fcf76e-bcce-3317-8834-d349bd7d5bb3",
+    "lat": -22.96576,
+    "lng": -47.13181,
+    "municipio": "Campinas",
+    "estado": "SP",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:56:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "d02272d4-333c-35e4-a795-29acd2c13229",
+    "lat": -21.67062,
+    "lng": -41.2872,
+    "municipio": "Campos Dos Goytacazes",
+    "estado": "RJ",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:56:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "d5709592-f632-3d29-b76b-01650bab5790",
+    "lat": -22.04069,
+    "lng": -48.23401,
+    "municipio": "Ribeirão Bonito",
+    "estado": "SP",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:56:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "110dfb8f-b123-31ed-8493-9e4017fdfb7e",
+    "lat": -19.37598,
+    "lng": -40.2574,
+    "municipio": "Linhares",
+    "estado": "ES",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "9ea5357d-b659-30bc-9775-ed0808551dc9",
+    "lat": -18.57354,
+    "lng": -40.98953,
+    "municipio": "Água Doce Do Norte",
+    "estado": "ES",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "29d73394-d5a1-30ad-9901-49b3e1de74d6",
+    "lat": -15.8117,
+    "lng": -41.82799,
+    "municipio": "Curral De Dentro",
+    "estado": "MG",
+    "risco": "medio",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "4207e4b4-7f10-38e7-8ee6-78f11dac1255",
+    "lat": -20.14901,
+    "lng": -40.98177,
+    "municipio": "Santa Maria De Jetibá",
+    "estado": "ES",
+    "risco": "medio",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "1d789fd8-ca31-3b21-9325-b04eca50f892",
+    "lat": -19.37679,
+    "lng": -40.25765,
+    "municipio": "Linhares",
+    "estado": "ES",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "ad20a6cc-893d-3f20-9d31-c51da0be7255",
+    "lat": -18.99459,
+    "lng": -40.35046,
+    "municipio": "Vila Valério",
+    "estado": "ES",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "ccc11337-5459-3e0d-abff-b26f9ff7b53c",
+    "lat": -22.04155,
+    "lng": -48.23672,
+    "municipio": "Ribeirão Bonito",
+    "estado": "SP",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "c373576c-3c9a-37f0-9d7b-a2219ab8e6c0",
+    "lat": -16.00371,
+    "lng": -41.67585,
+    "municipio": "Santa Cruz De Salinas",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "75c2393c-76b1-34f2-812a-8e3fc60bca4d",
+    "lat": -20.95802,
+    "lng": -43.93185,
+    "municipio": "Carandaí",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "3f6cddeb-bf4a-3963-9ca0-bae23d5b102f",
+    "lat": -18.64687,
+    "lng": -43.48604,
+    "municipio": "Serro",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "46e17a21-5807-351d-91df-d3574a18b71e",
+    "lat": -18.17518,
+    "lng": -40.3217,
+    "municipio": "Montanha",
+    "estado": "ES",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "9517dbda-b931-3793-9b31-34de977a972c",
+    "lat": -15.99942,
+    "lng": -41.67646,
+    "municipio": "Santa Cruz De Salinas",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "44bf1151-faf9-3f55-af94-2fa72ccff775",
+    "lat": -16.00084,
+    "lng": -41.67454,
+    "municipio": "Santa Cruz De Salinas",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "1aef7c06-c6bb-31bb-bae5-a08662671428",
+    "lat": -20.26505,
+    "lng": -45.74262,
+    "municipio": "Iguatama",
+    "estado": "MG",
+    "risco": "medio",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "ca7dada8-213e-37aa-922a-35592a743930",
+    "lat": -19.31298,
+    "lng": -40.28139,
+    "municipio": "Rio Bananal",
+    "estado": "ES",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "188f3e9f-ae6f-3ae2-b312-9757fd6a068b",
+    "lat": -15.46083,
+    "lng": -42.32762,
+    "municipio": "Vargem Grande Do Rio Pardo",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "93fabb7c-1a89-311d-9d15-d4b37fa973cf",
+    "lat": -19.08793,
+    "lng": -43.42919,
+    "municipio": "Conceição Do Mato Dentro",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "815dcfbc-9d23-30c5-ad4e-1faa80e31738",
+    "lat": -20.26462,
+    "lng": -45.73806,
+    "municipio": "Iguatama",
+    "estado": "MG",
+    "risco": "medio",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "1929d4d7-5c6e-3ab5-96bc-1bbe0ce82748",
+    "lat": -16.85197,
+    "lng": -45.43193,
+    "municipio": "Santa Fé De Minas",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "49812dd2-7530-3fb7-b289-d9a5bd96c4fd",
+    "lat": -17.90086,
+    "lng": -42.22004,
+    "municipio": "Malacacheta",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "72da3897-298b-3b25-ad32-475b57b8ea20",
+    "lat": -20.68806,
+    "lng": -44.35863,
+    "municipio": "Desterro De Entre Rios",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "a876acae-32a6-3b78-ab57-546a83ea019d",
+    "lat": -20.15333,
+    "lng": -40.98105,
+    "municipio": "Santa Maria De Jetibá",
+    "estado": "ES",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "6543ed02-354a-36a7-8e12-6dd25596d126",
+    "lat": -19.1858,
+    "lng": -48.76212,
+    "municipio": "Prata",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "e06bec6f-a399-3e79-8b9f-60d7b5f64133",
+    "lat": -19.65442,
+    "lng": -40.06179,
+    "municipio": "Aracruz",
+    "estado": "ES",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "f2035720-54b4-34f6-a8b4-a0453dbb8218",
+    "lat": -17.35524,
+    "lng": -39.58737,
+    "municipio": "Alcobaça",
+    "estado": "BA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "a55a4f8f-9cde-3e2e-a56e-a18478631a0d",
+    "lat": -18.17111,
+    "lng": -40.32214,
+    "municipio": "Montanha",
+    "estado": "ES",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "da4d0d31-dd49-366b-89f2-1aa0c7c09a89",
+    "lat": -19.01198,
+    "lng": -45.02088,
+    "municipio": "Pompéu",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "53c7f203-3ddf-3f15-ab4d-ce7212c46bf0",
+    "lat": -18.62619,
+    "lng": -40.58073,
+    "municipio": "Vila Pavão",
+    "estado": "ES",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "dcafd071-2f3d-3476-a3a0-976bf9b17935",
+    "lat": -17.35416,
+    "lng": -39.58924,
+    "municipio": "Alcobaça",
+    "estado": "BA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "223504b6-7e05-315b-b70d-8014f7a5af11",
+    "lat": -19.0656,
+    "lng": -40.08759,
+    "municipio": "Sooretama",
+    "estado": "ES",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "0c492538-dbd1-3b6d-bcae-7efc5a724cc7",
+    "lat": -19.3763,
+    "lng": -40.25376,
+    "municipio": "Linhares",
+    "estado": "ES",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "1dad24ec-6a1b-3779-86ce-f8eb7daeb6a1",
+    "lat": -16.85314,
+    "lng": -45.43258,
+    "municipio": "Santa Fé De Minas",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "cca946e3-ea19-38b6-bb43-94b7a2caa22f",
+    "lat": -17.93659,
+    "lng": -46.40445,
+    "municipio": "Presidente Olegário",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "75f3765c-2a5d-3c44-9f5d-37a69a47d59c",
+    "lat": -20.68951,
+    "lng": -44.35742,
+    "municipio": "Desterro De Entre Rios",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "debce8f6-2d51-3a87-a00f-b26af6f88454",
+    "lat": -15.80975,
+    "lng": -41.82768,
+    "municipio": "Curral De Dentro",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "fdf860a1-4fd2-3806-8b68-1db6e427ff26",
+    "lat": -19.52545,
+    "lng": -43.57442,
+    "municipio": "Nova União",
+    "estado": "MG",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T15:58:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "c0924e2d-67da-3ce6-b56c-cf640ae30137",
+    "lat": -8.59893,
+    "lng": -47.47009,
+    "municipio": "Itacajá",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "60a98034-6f7e-37c0-8442-a02be9d66922",
+    "lat": -13.97421,
+    "lng": -46.0257,
+    "municipio": "Jaborandi",
+    "estado": "BA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "d89cb8dd-2d2f-3ba6-81c2-9003149af927",
+    "lat": -11.59179,
+    "lng": -47.44174,
+    "municipio": "Natividade",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "e4c8152d-61e5-3af5-a218-cfa6a4991fe0",
+    "lat": -8.36359,
+    "lng": -46.69646,
+    "municipio": "Riachão",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "a2d45680-66f1-3b93-9681-508854a02c2a",
+    "lat": -9.98016,
+    "lng": -37.46799,
+    "municipio": "Porto Da Folha",
+    "estado": "SE",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "2430a75a-c2ac-3864-946c-3ea79e98fb9e",
+    "lat": -8.65315,
+    "lng": -47.48418,
+    "municipio": "Itacajá",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "24854ce5-e185-3bcb-a41c-b96b5fc880fa",
+    "lat": -7.75816,
+    "lng": -40.39432,
+    "municipio": "Araripina",
+    "estado": "PE",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "86007d67-3e20-340f-a4c0-7bfa869d9635",
+    "lat": -10.77108,
+    "lng": -49.92389,
+    "municipio": "Lagoa Da Confusão",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "8b039954-40f9-30fc-9f92-5056a1d369ee",
+    "lat": -10.75808,
+    "lng": -46.90884,
+    "municipio": "Mateiros",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "69d0af3e-c643-3433-afac-268288a54401",
+    "lat": -7.06426,
+    "lng": -36.20313,
+    "municipio": "Pocinhos",
+    "estado": "PB",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "9269669d-1368-3318-b193-2667c15e22d0",
+    "lat": -10.81132,
+    "lng": -49.3348,
+    "municipio": "Santa Rita Do Tocantins",
+    "estado": "TO",
+    "risco": "medio",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "76088cd3-0c11-3363-a49a-3c88247740d6",
+    "lat": -9.13037,
+    "lng": -46.91874,
+    "municipio": "Balsas",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "72360e45-7f94-370a-bf27-2f91db41adc6",
+    "lat": -9.59428,
+    "lng": -41.6314,
+    "municipio": "Casa Nova",
+    "estado": "BA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "853ac598-f746-3be1-8281-460cebb84ce2",
+    "lat": -10.65984,
+    "lng": -46.31504,
+    "municipio": "Mateiros",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "98b2ea25-414e-3fba-8a1b-8977be1c97c3",
+    "lat": -10.87975,
+    "lng": -46.63405,
+    "municipio": "Mateiros",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "14641006-8ef7-3e81-84f2-e4179b0ed605",
+    "lat": -10.46435,
+    "lng": -50.01278,
+    "municipio": "Pium",
+    "estado": "TO",
+    "risco": "medio",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "23d89e7f-2449-3e01-811f-10ac87c1cd79",
+    "lat": -9.63308,
+    "lng": -42.23232,
+    "municipio": "Remanso",
+    "estado": "BA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "0f517153-64bd-3292-a52e-4f6a16ada93c",
+    "lat": -12.27673,
+    "lng": -43.49529,
+    "municipio": "Muquém Do São Francisco",
+    "estado": "BA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "4cf45d25-3917-3b70-ab90-2fa1b393e85a",
+    "lat": -9.746,
+    "lng": -37.06468,
+    "municipio": "Batalha",
+    "estado": "AL",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "ae8426a5-d2bc-31cb-9861-e0c7049b5afd",
+    "lat": -10.49223,
+    "lng": -50.00289,
+    "municipio": "Pium",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "ceb03609-e298-3d49-8944-765c6e07e5e0",
+    "lat": -10.70654,
+    "lng": -49.92705,
+    "municipio": "Lagoa Da Confusão",
+    "estado": "TO",
+    "risco": "medio",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "5d16e0b6-bb7f-3f90-a450-b6f6d9a0e9a5",
+    "lat": -7.27619,
+    "lng": -39.25714,
+    "municipio": "Barbalha",
+    "estado": "CE",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "b99acd3c-ebbd-30dd-b68d-1d0326f6cd10",
+    "lat": -12.20577,
+    "lng": -41.58107,
+    "municipio": "Iraquara",
+    "estado": "BA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "66eda447-3d90-3ad1-83c5-23f6ab5099ce",
+    "lat": -7.27631,
+    "lng": -38.93448,
+    "municipio": "Milagres",
+    "estado": "CE",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "b380cb5b-865c-3188-b048-b956db2757a7",
+    "lat": -10.46548,
+    "lng": -50.01215,
+    "municipio": "Pium",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "73f29361-ddd2-3107-9d5e-d1f4ee647138",
+    "lat": -9.0239,
+    "lng": -46.65713,
+    "municipio": "Balsas",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "e9acc7ab-459a-36ff-b600-5ba3525561df",
+    "lat": -10.9482,
+    "lng": -49.88228,
+    "municipio": "Lagoa Da Confusão",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "6e841621-5cf3-3bce-87e8-2e29267a468d",
+    "lat": -9.02802,
+    "lng": -46.65842,
+    "municipio": "Balsas",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "d1ac8c48-e2d9-3542-ab4b-4a28d1b98a5f",
+    "lat": -10.6358,
+    "lng": -46.615,
+    "municipio": "Mateiros",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "f5753507-bd4d-3e44-b719-dc2ede1711a2",
+    "lat": -10.64135,
+    "lng": -46.61427,
+    "municipio": "Mateiros",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "6a5c3189-2343-3657-bdc7-5f437db400e4",
+    "lat": -9.23008,
+    "lng": -40.99686,
+    "municipio": "Casa Nova",
+    "estado": "BA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "22f1f8dd-fcbd-334e-aa05-0c38d6b2a302",
+    "lat": -8.59756,
+    "lng": -47.47276,
+    "municipio": "Itacajá",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "81e6181f-6437-3de8-8a95-707fd2ceaaeb",
+    "lat": -10.70758,
+    "lng": -49.92294,
+    "municipio": "Lagoa Da Confusão",
+    "estado": "TO",
+    "risco": "alto",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "8749df7c-10ea-3672-bb29-3cfe178a3883",
+    "lat": -10.81264,
+    "lng": -49.33312,
+    "municipio": "Santa Rita Do Tocantins",
+    "estado": "TO",
+    "risco": "medio",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "06205894-2f85-3a7e-8958-50272c33bfd8",
+    "lat": -8.60417,
+    "lng": -47.46556,
+    "municipio": "Itacajá",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "6de34181-0399-335c-918f-0165c17718e6",
+    "lat": -10.88021,
+    "lng": -46.63778,
+    "municipio": "Mateiros",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "47574a88-4e81-33d5-aed4-ea899c4dea63",
+    "lat": -8.64741,
+    "lng": -47.48485,
+    "municipio": "Itacajá",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "b9f4ee4a-940e-3b6b-861b-b14866d9530f",
+    "lat": -10.12117,
+    "lng": -45.99615,
+    "municipio": "Alto Parnaíba",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "95228e4c-3438-33e9-8f39-90fdf4428410",
+    "lat": -7.8141,
+    "lng": -37.994,
+    "municipio": "Flores",
+    "estado": "PE",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "496e82fc-ba6f-3173-bbdb-3ffdfdb8cc57",
+    "lat": -9.11732,
+    "lng": -46.90532,
+    "municipio": "Balsas",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "627f60c9-da1f-3c8c-bb1d-0e1b26c52789",
+    "lat": -8.36313,
+    "lng": -46.69307,
+    "municipio": "Riachão",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "bbea092d-c44a-36dd-a221-ce2c0efdbfae",
+    "lat": -9.00926,
+    "lng": -40.99305,
+    "municipio": "Casa Nova",
+    "estado": "BA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "f866dee4-2d04-3d64-adf1-e8592d5a5818",
+    "lat": -10.46618,
+    "lng": -50.01849,
+    "municipio": "Pium",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "0e61a411-d5b5-351f-91f3-b1007737dead",
+    "lat": -10.85578,
+    "lng": -45.88744,
+    "municipio": "Formosa Do Rio Preto",
+    "estado": "BA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "83dbaf52-d894-3823-bbb1-31c6ee8de1c4",
+    "lat": -9.03524,
+    "lng": -36.17616,
+    "municipio": "Palmeirina",
+    "estado": "PE",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "a96a6a62-ec59-382a-895a-528d88e5602b",
+    "lat": -10.70399,
+    "lng": -46.93761,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "df2e6d5e-c5c7-3dcc-9064-5c716f35aec7",
+    "lat": -10.70966,
+    "lng": -46.93678,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "a4767eba-cece-3bd3-ba23-a459cbfe199a",
+    "lat": -10.72293,
+    "lng": -46.95063,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "3b694f31-f1bc-39e0-87c8-efcc647b2cce",
+    "lat": -10.27293,
+    "lng": -46.22374,
+    "municipio": "Mateiros",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "34a55f75-0966-32e0-95ba-859730240c3f",
+    "lat": -10.26709,
+    "lng": -46.22083,
+    "municipio": "Mateiros",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "5d6eb363-a6b1-31b1-9515-3c41190d934d",
+    "lat": -9.57368,
+    "lng": -37.1391,
+    "municipio": "Olho D'água Das Flores",
+    "estado": "AL",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "8b9f17b3-b76f-3015-83d3-117c4a1da8d7",
+    "lat": -10.66029,
+    "lng": -46.31858,
+    "municipio": "Mateiros",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "9f69a52c-8c49-392b-8619-2c20c7a55e88",
+    "lat": -9.70667,
+    "lng": -36.91746,
+    "municipio": "Girau Do Ponciano",
+    "estado": "AL",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "ec926137-739c-3ab8-892c-49f305a70213",
+    "lat": -10.88066,
+    "lng": -46.64146,
+    "municipio": "Mateiros",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "4ce7b64a-340e-3499-9466-a4cefcaa0268",
+    "lat": -10.72245,
+    "lng": -46.94675,
+    "municipio": "Ponte Alta Do Tocantins",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "d0413c37-2b40-3a96-8707-e4397b4dae9e",
+    "lat": -8.35817,
+    "lng": -46.69717,
+    "municipio": "Riachão",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "07bddc1f-1072-37ee-a220-b9728addff32",
+    "lat": -13.97463,
+    "lng": -46.02945,
+    "municipio": "Jaborandi",
+    "estado": "BA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "e595ffe0-f5cc-3eb5-8933-b33fcc288198",
+    "lat": -9.61384,
+    "lng": -41.51733,
+    "municipio": "Casa Nova",
+    "estado": "BA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "22075c31-61a3-3f02-aed0-20aa242beab6",
+    "lat": -10.88112,
+    "lng": -46.64515,
+    "municipio": "Mateiros",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "36c0aa08-ed08-3fc9-8c48-6bc30677e83f",
+    "lat": -10.64089,
+    "lng": -46.61049,
+    "municipio": "Mateiros",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "cf2a8914-1748-3beb-949d-95cf21e5dd1e",
+    "lat": -9.79368,
+    "lng": -48.18024,
+    "municipio": "Tocantínia",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "eb07a52d-e6fc-357e-bda8-b4ab333aad12",
+    "lat": -10.70578,
+    "lng": -49.92074,
+    "municipio": "Lagoa Da Confusão",
+    "estado": "TO",
+    "risco": "medio",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "749e3feb-6446-3c52-a173-1d6b8393cf52",
+    "lat": -11.99883,
+    "lng": -45.83485,
+    "municipio": "Luís Eduardo Magalhães",
+    "estado": "BA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "fcc34535-7c73-3b54-ba7a-f27f6620c325",
+    "lat": -10.58194,
+    "lng": -44.79237,
+    "municipio": "Sebastião Barros",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "a613a8bd-5079-3f0d-a235-79a844019e7c",
+    "lat": -9.61525,
+    "lng": -41.51894,
+    "municipio": "Casa Nova",
+    "estado": "BA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "9c09b484-80ad-39b5-ac5c-abc77ce5269d",
+    "lat": -10.97204,
+    "lng": -40.85253,
+    "municipio": "Jacobina",
+    "estado": "BA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "026c8a85-070f-39ff-9172-0f01afd2e182",
+    "lat": -8.64794,
+    "lng": -47.48893,
+    "municipio": "Itacajá",
+    "estado": "TO",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "b65b2e47-a38f-31ec-94e2-032bc857f2b8",
+    "lat": -9.71051,
+    "lng": -36.92043,
+    "municipio": "Girau Do Ponciano",
+    "estado": "AL",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:01:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "bbfc029b-dfe8-3d22-966f-19e953f347d3",
+    "lat": -5.57441,
+    "lng": -42.72461,
+    "municipio": "Monsenhor Gil",
+    "estado": "PI",
+    "risco": "alto",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "d9ac3c1a-283d-303e-ba9e-611731c70e0f",
+    "lat": -6.58107,
+    "lng": -51.46923,
+    "municipio": "São Félix Do Xingu",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "c666717b-1ca0-33f1-880f-3dcc4e756b7d",
+    "lat": -7.21392,
+    "lng": -47.18424,
+    "municipio": "Carolina",
+    "estado": "MA",
+    "risco": "medio",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "7bdf7377-d3bd-337c-b787-a6262a2fbfe8",
+    "lat": -5.89554,
+    "lng": -44.14196,
+    "municipio": "Colinas",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "b97b7e57-21ad-34d9-9567-59ec8e9751e6",
+    "lat": -7.87409,
+    "lng": -47.1564,
+    "municipio": "Carolina",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "2158d4fd-7103-3cce-a49a-f798a8e92cfa",
+    "lat": -6.63429,
+    "lng": -39.74718,
+    "municipio": "Tarrafas",
+    "estado": "CE",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "b0e81250-b577-347d-a8da-464ccb0870b5",
+    "lat": -6.98998,
+    "lng": -42.88292,
+    "municipio": "Floriano",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "a4e21ad6-01f3-3472-9fac-7ec8c63e9e48",
+    "lat": -7.21943,
+    "lng": -47.18351,
+    "municipio": "Carolina",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "4edd14a6-df02-35ba-b90f-2005caa2b65c",
+    "lat": -6.6465,
+    "lng": -43.92199,
+    "municipio": "Nova Iorque",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "f1845003-3bf7-354a-a6e8-14a2db5ab7fc",
+    "lat": -6.92655,
+    "lng": -43.67342,
+    "municipio": "Guadalupe",
+    "estado": "PI",
+    "risco": "medio",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "deb0251c-249b-34db-ab4d-056850aca6a3",
+    "lat": -7.33311,
+    "lng": -46.89008,
+    "municipio": "Riachão",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "d745d3ea-511c-3e5c-b883-44b0526a5091",
+    "lat": -4.44197,
+    "lng": -48.26987,
+    "municipio": "Rondon Do Pará",
+    "estado": "PA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "9351a50b-145a-3685-b4de-9558e2b00137",
+    "lat": -6.93085,
+    "lng": -43.67278,
+    "municipio": "Guadalupe",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "846a49b2-0e42-3f36-98f1-c2887f54dab7",
+    "lat": -5.5298,
+    "lng": -44.41624,
+    "municipio": "São Domingos Do Maranhão",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "315253a9-c403-34e5-87aa-138effdc5352",
+    "lat": -5.5207,
+    "lng": -37.48484,
+    "municipio": "Governador Dix-sept Rosado",
+    "estado": "RN",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "8d123d59-5311-3fef-b261-102f18667e72",
+    "lat": -6.64152,
+    "lng": -43.91826,
+    "municipio": "Nova Iorque",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "298dda39-b9ad-32ad-887d-b9241fc3dcba",
+    "lat": -6.64212,
+    "lng": -43.92252,
+    "municipio": "Nova Iorque",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "a3ef75f0-7699-38b9-814c-e209e11c8003",
+    "lat": -7.12732,
+    "lng": -47.4631,
+    "municipio": "Carolina",
+    "estado": "MA",
+    "risco": "medio",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "108154de-c781-38f8-93b0-73ae12c97871",
+    "lat": -6.09719,
+    "lng": -44.32603,
+    "municipio": "Mirador",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "e955af10-2b3e-3b77-8f7c-3674470f1b2e",
+    "lat": -6.63772,
+    "lng": -39.74663,
+    "municipio": "Tarrafas",
+    "estado": "CE",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "0ed525e8-39d8-3159-84e4-e2a43a7e5cc3",
+    "lat": -7.31172,
+    "lng": -46.99392,
+    "municipio": "Carolina",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "a36ca289-f1fd-35ac-90d3-1f4ed404bf0d",
+    "lat": -5.57522,
+    "lng": -42.72208,
+    "municipio": "Monsenhor Gil",
+    "estado": "PI",
+    "risco": "medio",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "1c7614ab-240c-312a-bb64-5b40ddb1a5f5",
+    "lat": -7.36191,
+    "lng": -41.03997,
+    "municipio": "Jaicós",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "8440eee8-b89e-3de0-ae37-a9a50d02a5d4",
+    "lat": -5.60709,
+    "lng": -40.84069,
+    "municipio": "Novo Oriente",
+    "estado": "CE",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "9275e49c-12e9-392d-a105-761cc91001f6",
+    "lat": -6.98945,
+    "lng": -42.87928,
+    "municipio": "Floriano",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "cbdfe15a-540a-31ac-b552-0da24bb798ae",
+    "lat": -6.53662,
+    "lng": -35.53749,
+    "municipio": "Tacima",
+    "estado": "PB",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "9a260986-a25d-35e8-a227-bf15fbf334c8",
+    "lat": -6.07552,
+    "lng": -45.61619,
+    "municipio": "Grajaú",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "8b7ee3a4-aa09-3bc2-a369-f69670eaa477",
+    "lat": -7.95402,
+    "lng": -46.83268,
+    "municipio": "Carolina",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "90191135-bf7b-3ef2-ac43-87edda614b82",
+    "lat": -6.99322,
+    "lng": -42.87896,
+    "municipio": "Floriano",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "0e5aa5d7-b134-3619-a18b-b9118a67caae",
+    "lat": -6.6459,
+    "lng": -43.9177,
+    "municipio": "Nova Iorque",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "2baf54c6-01a2-3039-8231-f0ac63adce91",
+    "lat": -7.13942,
+    "lng": -47.42583,
+    "municipio": "Carolina",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "b96a3c3d-7182-3968-ba3f-105537e68526",
+    "lat": -5.33582,
+    "lng": -42.68196,
+    "municipio": "Demerval Lobão",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "7a21a396-ad51-3889-a769-e6426daee7aa",
+    "lat": -6.92909,
+    "lng": -43.23587,
+    "municipio": "Floriano",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "639c1656-7978-3b99-abf9-0a428853734a",
+    "lat": -6.07478,
+    "lng": -45.61076,
+    "municipio": "Grajaú",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "d8665db3-50c8-3c72-b1a9-c3cd737a3967",
+    "lat": -7.1268,
+    "lng": -47.4592,
+    "municipio": "Carolina",
+    "estado": "MA",
+    "risco": "medio",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "cca2a6a0-d848-30ad-b9b8-665eed236764",
+    "lat": -6.75095,
+    "lng": -42.69079,
+    "municipio": "Francisco Ayres",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "8ba343b2-1c71-3669-8239-03d139ac4005",
+    "lat": -6.99355,
+    "lng": -42.87876,
+    "municipio": "Floriano",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "9e4ce033-4ebf-3947-a00d-a9d1aacdd0ff",
+    "lat": -5.33665,
+    "lng": -42.68383,
+    "municipio": "Demerval Lobão",
+    "estado": "PI",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "6ac0cf64-27e2-3143-b759-bf72d8e94be2",
+    "lat": -6.07653,
+    "lng": -45.61242,
+    "municipio": "Grajaú",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "1e408eb2-7657-3664-bf22-3987f5d24031",
+    "lat": -5.10301,
+    "lng": -46.94693,
+    "municipio": "João Lisboa",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "e41a5bcd-6294-3598-8b79-a5cb69d2cb5d",
+    "lat": -5.1029,
+    "lng": -46.9458,
+    "municipio": "João Lisboa",
+    "estado": "MA",
+    "risco": "baixo",
+    "dataHora": "2026-06-01T16:03:00Z",
+    "satelite": "NOAA-21"
+  },
+  {
+    "id": "67e18bdb-d050-3de6-8601-f014e397a880",
+    "lat": -14.7647,
+    "lng": -52.687,
+    "municipio": "Nova Xavantina",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T16:20:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "034d58d6-4caa-3278-8c0e-3f2b0f29a118",
+    "lat": -7.4975,
+    "lng": -55.0055,
+    "municipio": "Altamira",
+    "estado": "PA",
+    "risco": "alto",
+    "dataHora": "2026-06-01T17:20:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "c95063fa-cb43-3bd8-9186-6667eaade7d7",
+    "lat": -7.5161,
+    "lng": -55.0044,
+    "municipio": "Altamira",
+    "estado": "PA",
+    "risco": "alto",
+    "dataHora": "2026-06-01T17:30:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "86c161f4-b977-394f-8989-95a95dafb58d",
+    "lat": -7.4975,
+    "lng": -55.0055,
+    "municipio": "Altamira",
+    "estado": "PA",
+    "risco": "alto",
+    "dataHora": "2026-06-01T17:40:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "8eb4c4c4-14bc-35c9-8ffa-b01542540af5",
+    "lat": -13.9941,
+    "lng": -53.8731,
+    "municipio": "Paranatinga",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T17:40:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "b3fc25ab-f15f-3e97-9b7f-ba014ca78705",
+    "lat": -12.556,
+    "lng": -57.1798,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T18:00:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "3e2eeeeb-cbbd-3441-85e2-9cf3f1b324ac",
+    "lat": -12.556,
+    "lng": -57.1798,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T18:10:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "13fe589b-be2b-3e8c-9bdb-89dab86b1195",
+    "lat": -12.7272,
+    "lng": -54.1988,
+    "municipio": "Paranatinga",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T18:10:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "f185ab8d-c39f-3119-98a8-76442d5003ea",
+    "lat": -11.5836,
+    "lng": -54.5777,
+    "municipio": "União Do Sul",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T18:10:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "7acd7f31-96bd-3962-8e1c-db1fb1cd7682",
+    "lat": -11.3224,
+    "lng": -51.4049,
+    "municipio": "São Félix Do Araguaia",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T18:10:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "c8453183-eacb-33ac-9ead-0b2ff9064147",
+    "lat": -12.556,
+    "lng": -57.1798,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T18:20:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "ed6dd6eb-a360-3d90-9637-1d8536ccee5f",
+    "lat": -11.5647,
+    "lng": -54.5794,
+    "municipio": "União Do Sul",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T18:20:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "a01ad60f-0301-36ee-9ffb-f5f61920fdb5",
+    "lat": -12.556,
+    "lng": -57.1798,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T18:30:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "69b1a2e7-aa07-3b9e-a26d-39349df507ad",
+    "lat": -13.9749,
+    "lng": -53.8753,
+    "municipio": "Paranatinga",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T18:30:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "2f9c7cc6-485e-3cf5-a102-17cd14c764c4",
+    "lat": -12.537,
+    "lng": -57.1814,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T18:40:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "f4058bf9-ef7c-323d-bd8e-38432d065bd0",
+    "lat": -12.307,
+    "lng": -57.4008,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T18:40:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "e4bb4d21-09e3-3993-b525-bf870c658021",
+    "lat": -11.5647,
+    "lng": -54.5794,
+    "municipio": "União Do Sul",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T18:40:00Z",
+    "satelite": "GOES-19"
+  },
+  {
+    "id": "c60dfe7a-6689-3e6e-aee1-116202d22c69",
+    "lat": -12.556,
+    "lng": -57.1798,
+    "municipio": "Nova Maringá",
+    "estado": "MT",
+    "risco": "alto",
+    "dataHora": "2026-06-01T18:40:00Z",
+    "satelite": "GOES-19"
+  }
+]

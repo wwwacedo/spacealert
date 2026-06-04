@@ -1,5 +1,4 @@
-import { estados } from "@/data/estados"
-import { focos } from "@/data/focos"
+import { loadEstadoById } from "@/lib/server-data"
 
 export async function GET(
   _req: Request,
@@ -7,12 +6,11 @@ export async function GET(
 ) {
   await new Promise((r) => setTimeout(r, 300))
   const { id } = await params
-  const estado = estados.find((e) => e.id === id.toUpperCase())
+  const data = await loadEstadoById(id)
 
-  if (!estado) {
+  if (!data) {
     return Response.json({ error: "Estado não encontrado" }, { status: 404 })
   }
 
-  const focosEstado = focos.filter((f) => f.estado === estado.id)
-  return Response.json({ estado, focos: focosEstado })
+  return Response.json(data)
 }
