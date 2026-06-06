@@ -33,6 +33,19 @@ python -m scripts.inpe_pipeline ingest --daily 20260601 --monthly 202605
 
 The command writes `data/generated/focos.json`, `estados.json`, `historico.json`, and `alertas.json`. The Next.js app uses only those generated INPE files, so run the pipeline before starting the app.
 
+## AI Analysis
+
+The home page opens an AI insight popup that analyzes the generated INPE data through `/api/ai-analysis`.
+
+To use real AI, create `.env.local` from `.env.example` and set:
+
+```bash
+OPENAI_API_KEY=your_api_key_here
+OPENAI_MODEL=gpt-4.1-mini
+```
+
+If `OPENAI_API_KEY` is missing, the endpoint returns a mock insight so the interface still works for demos. Results are cached in `data/ai-analysis-cache/` using a hash of `focos.json`, `estados.json`, and `historico.json`.
+
 ## Run Everything
 
 On Git Bash, WSL, Linux, or macOS:
