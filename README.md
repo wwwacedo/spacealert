@@ -1,94 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SpaceAlert
 
-## Getting Started
+SpaceAlert e um MVP full stack para monitoramento de focos de queimada com dados do INPE, dashboard analitico e insight automatizado de IA.
 
-First, run the development server:
+## Requisitos
+
+- Node.js 20+
+- Python 3.10+
+- npm
+
+## Como Rodar
+
+Instale as dependencias:
+
+```bash
+npm install
+python -m pip install -r requirements.txt
+```
+
+Inicie a aplicacao:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000).
 
-## INPE Pipeline
-
-Install the Python dependencies and run the tests:
+Tambem existem runners completos:
 
 ```bash
-python -m pip install -r requirements.txt
-python -m pytest
+./run.sh
+./run.sh --ingest
+./run.sh --verify
 ```
 
-Generate the app data from INPE CSVs:
+No PowerShell:
+
+```powershell
+.\run.ps1
+.\run.ps1 -Ingest
+.\run.ps1 -Verify
+```
+
+## Pipeline de Dados INPE
+
+O pipeline Python baixa CSVs publicos do INPE, processa com Pandas e gera os arquivos consumidos pelo app:
 
 ```bash
 python -m scripts.inpe_pipeline ingest --daily 20260601 --monthly 202605
 ```
 
-The command writes `data/generated/focos.json`, `estados.json`, `historico.json`, and `alertas.json`. The Next.js app uses only those generated INPE files, so run the pipeline before starting the app.
+Saidas geradas:
 
-## AI Analysis
+- `data/generated/focos.json`
+- `data/generated/estados.json`
+- `data/generated/historico.json`
+- `data/generated/alertas.json`
 
-The home page opens an AI insight popup that analyzes the generated INPE data through `/api/ai-analysis`.
+## Analise de IA
 
-To use real AI, create `.env.local` from `.env.example` and set:
+A pagina inicial exibe um popup de insight que consulta `/api/ai-analysis`.
+
+Para usar IA real, crie `.env.local` a partir de `.env.example`:
 
 ```bash
 OPENAI_API_KEY=your_api_key_here
 OPENAI_MODEL=gpt-4.1-mini
 ```
 
-If `OPENAI_API_KEY` is missing, the endpoint returns a mock insight so the interface still works for demos. Results are cached in `data/ai-analysis-cache/` using a hash of `focos.json`, `estados.json`, and `historico.json`.
+Sem `OPENAI_API_KEY`, a rota usa um fallback mockado para manter a demonstracao funcionando. O resultado e armazenado em `data/ai-analysis-cache/` com hash dos dados gerados.
 
-## Run Everything
+## Qualidade e CI
 
-On Git Bash, WSL, Linux, or macOS:
-
-```bash
-./run.sh
-```
-
-On Windows PowerShell:
-
-```powershell
-.\run.ps1
-```
-
-Useful options:
+Comandos locais:
 
 ```bash
-./run.sh --ingest
-./run.sh --verify
+npm run lint
+npm run typecheck
+npm run test:py
+npm run build
+npm run audit:high
+npm run verify
 ```
 
-```powershell
-.\run.ps1 -Ingest
-.\run.ps1 -Verify
-```
+A esteira de CI fica em `.github/workflows/ci.yml` e roda em `push` e `pull_request` com:
 
-See `EVIDENCIAS.md` for the implementation evidence by project phase.
+- Node.js 20 e `npm ci`
+- Python 3.10 e `pip install -r requirements.txt`
+- cache de npm, pip e `.next/cache`
+- ESLint, TypeScript, pytest, build de producao e auditoria npm para severidade alta ou critica
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Revisao dos Requisitos
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Area | Status | Evidencia |
+| --- | --- | --- |
+| IA, automacao e sistemas inteligentes | Atendido | `/api/ai-analysis`, OpenAI opcional, fallback mock, cache por hash e classificacao automatica de risco no pipeline. |
+| Big Data, dados e visualizacao | Atendido | Ingestao/processamento com Pandas, JSONs gerados, dashboard geral e tela historica. |
+| MVP full stack e experiencia digital | Parcial | App Next.js com APIs, mapa e 4 telas funcionais. IoT foi ignorado por decisao de escopo. |
+| DevOps, seguranca e qualidade | Atendido | GitHub Actions, scripts de verificacao, headers basicos de seguranca e auditoria de dependencias. |
 
-## Learn More
+## Rotas Principais
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `/`
+- `/dashboard`
+- `/historico`
+- `/regiao/[id]`
+- `/api/focos`
+- `/api/estados`
+- `/api/historico`
+- `/api/ai-analysis`

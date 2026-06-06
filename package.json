@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test:py": "python -m pytest",
+    "audit:high": "npm audit --audit-level=high",
+    "verify": "npm run lint && npm run typecheck && npm run test:py && npm run build && npm run audit:high"
   },
   "dependencies": {
     "framer-motion": "^12.40.0",

@@ -1,6 +1,6 @@
 # Evidencias do Projeto SpaceAlert
 
-Este documento resume as evidencias de implementacao das tres fases do projeto.
+Este documento resume as evidencias de implementacao das areas do projeto.
 
 ## Parte 1 - IA, Automacao e Sistemas Inteligentes
 
@@ -57,7 +57,7 @@ OPENAI_MODEL=gpt-4.1-mini
 - Dashboard historico em `app/historico/page.tsx`.
 - Dashboard geral integrado em `app/dashboard/page.tsx` e `components/DashboardClient.tsx`.
 
-## Parte 3 - MVP Full Stack + IoT
+## Parte 3 - MVP Full Stack e Experiencia Digital
 
 - App Next.js com React.
 - Mapa Leaflet em `components/LeafletMap.tsx`.
@@ -66,7 +66,30 @@ OPENAI_MODEL=gpt-4.1-mini
 - Tela de detalhe de regiao em `app/regiao/[id]/page.tsx`.
 - Tela de historico em `app/historico/page.tsx`.
 - Integracao com dados reais via `lib/server-data.ts`, usando apenas os arquivos gerados em `data/generated/`.
-- IoT permanece como simulacao separada no TinkerCad, conforme escopo original do video.
+- IoT foi ignorado por decisao de escopo, portanto este requisito fica parcialmente atendido.
+
+## Parte 4 - DevOps, Seguranca e Qualidade
+
+- Esteira GitHub Actions em `.github/workflows/ci.yml`.
+- A CI roda em `push` e `pull_request`.
+- A instalacao Node usa `npm ci`.
+- A instalacao Python usa `python -m pip install -r requirements.txt`.
+- A CI executa lint, typecheck, testes Python, build de producao e auditoria npm de severidade alta ou critica.
+- Cache configurado para npm, pip e `.next/cache`.
+- Headers basicos de seguranca configurados em `next.config.ts`:
+  - `X-Content-Type-Options`
+  - `Referrer-Policy`
+  - `X-Frame-Options`
+  - `Permissions-Policy`
+
+## Matriz de Atendimento dos Requisitos
+
+| Area | Status | Evidencia |
+| --- | --- | --- |
+| IA, automacao e sistemas inteligentes | Atendido | `/api/ai-analysis`, OpenAI opcional, fallback mockado, cache por hash e classificacao automatica de risco. |
+| Big Data, dados e visualizacao | Atendido | Pipeline Pandas, arquivos `data/generated/*.json`, dashboard geral e historico. |
+| MVP full stack e experiencia digital | Parcial | Next.js, APIs, mapa e 4 telas funcionais. IoT fora do escopo. |
+| DevOps, seguranca e qualidade | Atendido | GitHub Actions, scripts de verificacao, auditoria npm e headers de seguranca. |
 
 ## Evidencias de Verificacao
 
@@ -75,7 +98,10 @@ Comandos usados para validar:
 ```bash
 python -m pytest
 npm run lint
+npm run typecheck
 npm run build
+npm run audit:high
+npm run verify
 ```
 
 Rotas verificadas:
