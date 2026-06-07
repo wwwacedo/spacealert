@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SpaceAlert
 
-## Getting Started
+SpaceAlert e um MVP full stack para monitoramento de focos de queimada com dados do INPE, dashboard analitico e insight automatizado de IA.
 
-First, run the development server:
+## Requisitos
+
+- Node.js 20+
+- Python 3.10+
+- npm
+
+## Como Rodar
+
+Instale as dependencias:
+
+```bash
+npm install
+python -m pip install -r requirements.txt
+```
+
+Inicie a aplicacao:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Tambem existem runners completos:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+./run.sh
+./run.sh --ingest
+./run.sh --verify
+```
 
-## Learn More
+No PowerShell:
 
-To learn more about Next.js, take a look at the following resources:
+```powershell
+.\run.ps1
+.\run.ps1 -Ingest
+.\run.ps1 -Verify
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Pipeline de Dados INPE
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+O pipeline Python baixa CSVs publicos do INPE, processa com Pandas e gera os arquivos consumidos pelo app:
 
-## Deploy on Vercel
+```bash
+python -m scripts.inpe_pipeline ingest --daily 20260601 --monthly 202605
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Saidas geradas:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `data/generated/focos.json`
+- `data/generated/estados.json`
+- `data/generated/historico.json`
+- `data/generated/alertas.json`
+
+## Analise de IA
+
+A pagina inicial exibe um popup de insight que consulta `/api/ai-analysis`.
+
+Para usar IA real, crie `.env.local` a partir de `.env.example`:
+
+```bash
+OPENAI_API_KEY=your_api_key_here
+OPENAI_MODEL=gpt-4.1-mini
+```
+
+Sem `OPENAI_API_KEY`, a rota usa um fallback mockado para manter a demonstracao funcionando. O resultado e armazenado em `data/ai-analysis-cache/` com hash dos dados gerados.
+
+## Qualidade e CI
+
+Comandos locais:
+
+```bash
+npm run lint
+npm run typecheck
+npm run test:py
+npm run build
+npm run audit:high
+npm run verify
+```
+
+A esteira de CI fica em `.github/workflows/ci.yml` e roda em `push` e `pull_request` com:
+
+- Node.js 20 e `npm ci`
+- Python 3.10 e `pip install -r requirements.txt`
+- cache de npm, pip e `.next/cache`
+- ESLint, TypeScript, pytest, build de producao e auditoria npm para severidade alta ou critica
+
+## Revisao dos Requisitos
+
+| Area | Status | Evidencia |
+| --- | --- | --- |
+| IA, automacao e sistemas inteligentes | Atendido | `/api/ai-analysis`, OpenAI opcional, fallback mock, cache por hash e classificacao automatica de risco no pipeline. |
+| Big Data, dados e visualizacao | Atendido | Ingestao/processamento com Pandas, JSONs gerados, dashboard geral e tela historica. |
+| MVP full stack e experiencia digital | Parcial | App Next.js com APIs, mapa e 4 telas funcionais. IoT foi ignorado por decisao de escopo. |
+| DevOps, seguranca e qualidade | Atendido | GitHub Actions, scripts de verificacao, headers basicos de seguranca e auditoria de dependencias. |
+
+## Rotas Principais
+
+- `/`
+- `/dashboard`
+- `/historico`
+- `/regiao/[id]`
+- `/api/focos`
+- `/api/estados`
+- `/api/historico`
+- `/api/ai-analysis`

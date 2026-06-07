@@ -1,0 +1,92 @@
+{
+  "TO": {
+    "estado": "TO",
+    "risco": "alto",
+    "resumo": "Tocantins registra 120 focos ativos e risco alto. A região mais crítica é Ponte Alta Do Tocantins. Tendência subindo."
+  },
+  "MT": {
+    "estado": "MT",
+    "risco": "alto",
+    "resumo": "Mato Grosso registra 101 focos ativos e risco alto. A região mais crítica é São Félix Do Araguaia. Tendência subindo."
+  },
+  "MA": {
+    "estado": "MA",
+    "risco": "medio",
+    "resumo": "Maranhão registra 47 focos ativos e risco médio. A região mais crítica é Carolina. Tendência estavel."
+  },
+  "PI": {
+    "estado": "PI",
+    "risco": "medio",
+    "resumo": "Piauí registra 36 focos ativos e risco médio. A região mais crítica é Floriano. Tendência estavel."
+  },
+  "PA": {
+    "estado": "PA",
+    "risco": "medio",
+    "resumo": "Pará registra 34 focos ativos e risco médio. A região mais crítica é Altamira. Tendência estavel."
+  },
+  "MG": {
+    "estado": "MG",
+    "risco": "medio",
+    "resumo": "Minas Gerais registra 30 focos ativos e risco médio. A região mais crítica é Santa Cruz De Salinas. Tendência estavel."
+  },
+  "ES": {
+    "estado": "ES",
+    "risco": "baixo",
+    "resumo": "Espírito Santo registra 19 focos ativos e risco baixo. A região mais crítica é Sooretama. Tendência caindo."
+  },
+  "GO": {
+    "estado": "GO",
+    "risco": "medio",
+    "resumo": "Goiás registra 19 focos ativos e risco médio. A região mais crítica é Colinas Do Sul. Tendência estavel."
+  },
+  "SP": {
+    "estado": "SP",
+    "risco": "baixo",
+    "resumo": "São Paulo registra 19 focos ativos e risco baixo. A região mais crítica é Jales. Tendência caindo."
+  },
+  "BA": {
+    "estado": "BA",
+    "risco": "baixo",
+    "resumo": "Bahia registra 18 focos ativos e risco baixo. A região mais crítica é Casa Nova. Tendência caindo."
+  },
+  "RN": {
+    "estado": "RN",
+    "risco": "baixo",
+    "resumo": "Rio Grande do Norte registra 10 focos ativos e risco baixo. A região mais crítica é Governador Dix-sept Rosado. Tendência caindo."
+  },
+  "CE": {
+    "estado": "CE",
+    "risco": "baixo",
+    "resumo": "Ceará registra 5 focos ativos e risco baixo. A região mais crítica é Tarrafas. Tendência caindo."
+  },
+  "PE": {
+    "estado": "PE",
+    "risco": "baixo",
+    "resumo": "Pernambuco registra 5 focos ativos e risco baixo. A região mais crítica é Paulista. Tendência caindo."
+  },
+  "AL": {
+    "estado": "AL",
+    "risco": "baixo",
+    "resumo": "Alagoas registra 4 focos ativos e risco baixo. A região mais crítica é Girau Do Ponciano. Tendência caindo."
+  },
+  "AM": {
+    "estado": "AM",
+    "risco": "baixo",
+    "resumo": "Amazonas registra 3 focos ativos e risco baixo. A região mais crítica é Canutama. Tendência caindo."
+  },
+  "RJ": {
+    "estado": "RJ",
+    "risco": "baixo",
+    "resumo": "Rio de Janeiro registra 3 focos ativos e risco baixo. A região mais crítica é Belford Roxo. Tendência caindo."
+  },
+  "PB": {
+    "estado": "PB",
+    "risco": "baixo",
+    "resumo": "Paraíba registra 2 focos ativos e risco baixo. A região mais crítica é Pocinhos. Tendência caindo."
+  },
+  "SE": {
+    "estado": "SE",
+    "risco": "baixo",
+    "resumo": "Sergipe registra 1 focos ativos e risco baixo. A região mais crítica é Porto Da Folha. Tendência caindo."
+  }
+}
